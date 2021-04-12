@@ -11,9 +11,9 @@
  <body>
    <h1> North American </h1>
 
-   <img src= "southeast-food.jpg" alt="A table of Southeast Asian delicacies" width= 1080px>
+   <img src= "English North American food.jpg" alt="English North American food" width= 1080px>
    <p class="historical-context"> 
-     Diversity fuels Southeast Asian food. With an emphasis on traditional food, this region is influenced by the many religions and races. The food emphasizes on stir-frying, steaming, curry, seasonings, and so much more. 
+     Nearly all of today's popular U.S.A foods (apple pie, hot dogs, hamburgers, pizza, tacos, chocolate, jelly beans, ice cream, steak, potato salad, watermelons) originated in other countries. Their ingredients and recipes were introduced to our shores by colonists, settlers, and immigrants. Native ingredients play a key role but they do not tell the entire story. In fact, many of the "new world" foods arrived to the USA via Europe.
 
 
    </p>
@@ -26,8 +26,8 @@
 
    <div class="Breakfast">
      <h2> Breakfast: Bacon, Egg and Cheese Sandwich </h2>
-     <img src="Bacon, Egg and Cheese Sandwhich.jpg" alt="Bacon, Egg and Cheese Sandwhich>
-     <p> This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it.  </p>
+     <img src="Bacon, Egg and Cheese Sandwhich.jpg" alt="Bacon, Egg and Cheese Sandwhich" width=1080px>                                           
+     <p> This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it.</p>
 
      <h3> Recipe </h3>
      <h5>Ingredients </h5>
@@ -54,12 +54,12 @@
    </div>
 
    <div class="Lunch">
-     <img src="All-American-Sub-Sandwhich.jpg" alt= "All-American Sub">
      <h2> Lunch: All-American Sub </h2>
+     <img src="All-American-Sub-Sandwhich.jpg" alt= "All-American Sub">
      <p>The American submarine sandwich, also known as the American sub, All-American sub, American hoagie or American hero, is a type of submarine sandwich similar to the ham and cheese sandwich and Italian sandwich.</p>
 
      <h3> Recipe </h3>
-     <h4>Ingredients </h4>
+     <h5>Ingredients </h5>
    <ul>
      <li>1 lb sub bread</li>
      <li>1/2 lb shaved turkey</li>
@@ -75,7 +75,7 @@
      <li>salt & fresh ground pepper</li>
    </ul>
 
-     <h4>Instructions</h4>
+     <h5>Instructions</h5>
    <ol>
      <li>Cut loaf of bread (french, Italian, or grain bread) in half, lengthwise.</li>
      <li>Spread one half with mayonnaise the other with mustard.</li>
@@ -88,12 +88,12 @@
    </div>
 
    <div class="Dinner">
-     <img src="Mac and Cheese.jpg" alt="Mac and Cheese">
      <h2> Dinner: Mac and Cheese</h2>
+     <img src="Mac and Cheese.jpg" alt="Mac and Cheese">
      <p>Although it is an American staple, the dish was probably inspired by various pasta and cheese dishes that were enjoyed in Italy, France, and the United Kingdom, before its appearance in the United States. It was Thomas Jefferson who eventually popularized it, when he had the pasta machine shipped back home to Virginia and served the dish at his lavish banquets, while in 1824, his distant cousin Mary Randolph published the first mac and cheese recipe.Nowadays, mac and cheese is the ultimate comfort food dish in the United States, and in 2007, it was proclaimed the fourth most iconic American food in a survey conducted by James Beard Foundation. </p>
 
      <h3> Recipe </h3>
-     <h4>Ingredients</h4>
+     <h5>Ingredients</h5>
    <ul>
      <li>6 tbsp unsalted butter, plus more to grease the baking dish</li>
      <li>1 cup (120g) panko breadcrumbs</li>
@@ -106,7 +106,7 @@
      <li>1/2 tsp freshly ground black pepper</li>
    </ul>
 
-     <h4>Instructions</h4>
+     <h5>Instructions</h5>
    <ol>
      <li>Set the oven to 350°F (175°C) and grease a 9x13-inch (23x33cm) baking dish with butter. Place the panko breadcrumbs in a small bowl, then melt three tablespoons of butter in a small saucepan over moderate heat.</li>
      <li>Once melted, drizzle the butter over the panko breadcrumbs and toss them to ensure they are all coated. Next, add a handful of grated cheese to the buttered breadcrumbs and stir them to combine.</li>
