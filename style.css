@@ -28,7 +28,10 @@ font-family: 'Shadows Into Light', cursive;*/
 /* I don't know how to do the drop down menu*/
 
 html {
-  width: 80ch,
+  width: 75%;
+  background-color: whitesmoke;
+  font-size: 0.7rem;
+  padding: 2.1rem;
 }
 
 h1 {
@@ -57,11 +60,15 @@ h2 {
 
 div>p {
   font-family: 'Open Sans' , sans-serif;
-  text-align: center;
   margin: auto;
+  padding: 1.1rem;
 }
 
 div {
   padding-top: 2em;
 }
 
+/*Colors for each html*/
+h4 {
+  background-color: #11698e;
+}
