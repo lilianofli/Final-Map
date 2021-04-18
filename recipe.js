@@ -1,8 +1,40 @@
 
 let data = [
 	{
+    region: "Latin America",
+		className: "latin-america-breakfast",
+    color: "#5AB443",
+		breakfast: {
+			name: "Torrijas",
+      img: "torrijas.jpg", 
+      desc: 
+        "A cross between french toast and bread pudding, it’s a simple Spanish dessert commonly eaten for breakfast.",
+      recipe: {
+        ingredients: ["4 large eggs", "1 liter of whole milk", "1 cup of sugar", "2 teaspoons of cinnamon", "3 tablespoons of honey", "Extra Virgin Olive Oil", "1 strip of lemon peel", "1 strip orange peel", "1 teaspoon of cardamom seeds (optional)", "1 star anise (optional)", "A thick bar of slightly stale French bread or any bread"],
+        instructions: [
+          "Bring the milk, ½ cup of sugar, lemon and orange peel, and spices (cardamom seeds and star anise) to a slow simmer.",
+          "Cut the bread in thick slices.", 
+          "When the milk mixture has been simmering for about 15 minutes, turn off the heat and soak the slices of bread in this mixture. Be careful not to completely wet them to the point that they will break apart, but try to get them to absorb as much milk as possible.", 
+          "Let the slices of wet bread rest and cool (some liquid may be lost).", 
+          "Beat the eggs in a shallow bowl and dip the bread slices in the egg mixture. In the meantime, heat up about ½ an inch of the olive oil in a deep, heavy pan on medium-high heat.", 
+          "Fry the slices two by two, flipping them halfway so that both sides are nice and crisp.",
+          "Let the torrijas rest on paper towels to absorb excess oil. In another bowl mix the remaining sugar (1/2 cup) with the cinnamon.",
+          "Cover the slices in the cinnamon sugar mixture and reserve.",
+          "Finally, make the syrup. Take the remaining cinnamon and sugar from coating the torrijas and add it to a medium-sized pot. Add a bit more sugar to completely cover the bottom of the pot if necessary.",
+          "Add 2 cups of warm water to the sugar and bring it to a boil.",
+          "Add the honey (you can add more or less depending on preference).",
+          "Allow the syrup to simmer for about 30 minutes until it reduces to a syrup-like consistency. It won’t be a very thick syrup, but it shouldn’t be too watery.",
+          "Take the syrup off of the heat and after about 15 minutes spoon it over the French toast. The torrijas should be completely soaked in syrup. Allow them to completely cool before putting them into the refrigerator.",
+          "Refrigerate the torrijas for at least 4 hours, but preferably overnight.",
+          "Enjoy within two or three days for best quality!"
+        ]
+    
+  }
+  
+  {
 		region: "Southeast Asia",
 		className: "southeast-asia-breakfast",
+    color: "#030C9B",
 		breakfast: {
 			name: "Bubur Ayam",
 			img: "bubur-ayam.jpg",
