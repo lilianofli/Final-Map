@@ -1,4 +1,3 @@
-
 let data = [
 	{
     region: "Latin America",
@@ -439,7 +438,7 @@ lunch: {
   dinner: {
     name: "Coconut Shrimp Curry",
     img: "shrimp-curry.jpg",
-    desc: "An easy Thai curry made with coconut milk that is a favorite, comfort food.",
+    desc: "An easy Thai curry made with coconut milk that is a favorite, comfort food."
     recipe: {
       ingredients: ["18 medium-sized shrimps", "2 tbsp white onions chopped into cubes", "2 cloves garlic finely chopped", "1/4 cup water", "1/2 cup coconut milk", "1 1/2 tbsp unsalted butter", "1 tbsp fish sauce", "3 1/2 tbsp Thai red curry paste", "3 kaffir lime leaves", "1/2 tsp sugar", "1 1/2 tbsp lime juice"]
       instructions: [
@@ -453,6 +452,394 @@ lunch: {
       ]
     }
   },
+  region: "East Asia",
+  className: "east-asia-breakfast",
+  color: #AA96F6,
+  breakfast: {
+      name: "Onsen Tamago"
+      img: "onsen-tamago.jpg"
+      desc: "A traditional Japanese delicacy made by slow-cooking eggs in baskets that are submerged in onsen hot springs, aka hot spring egg."
+      recipe: {
+          ingredients: ["1 egg", "1tsp dashi stock powder", "1 tbsp light soy sauce", "1 tbsp mirin"]
+          instructions: [
+              "Remove the from the fridge well in advance and leave to return to room temperature.",
+              "Fill a pan with 1l of water and bring to the boil. When the water begins to simmer add 1 cup of cold water and turn off the heat.",
+              "Using a ladle or spoon gently add the eggs one by one into the pan. Cover with the lid and leave to stand for around 30 minutes.",
+              "In a separate pan, add 100ml of water, then bring to the boil. Add the dashi stock powder, soy sauce and mirin, then simmer for a minute or two. Leave to one side to cool slightly, then serve with the egg."
+          ]
+      }
+  }
+  className: "east-asia-lunch",
+  lunch: {
+      name: "Bibimbap"
+      img: "bibimbap.jpg"
+      desc: "Literally meaning 'mixed rice,' it's rice with stir fried vegetables, strips of beef, flavoured with a spicy pepper paste and topped with a fried egg. "
+      recipe: {
+          ingredients: ["1 cucumber, sliced into matchsticks", "4 tbsp Korean hot pepper paste", "1 bunch fresh spinach, sliced", "1 tbsp soy sauce", "2 tsp olive oil", "2 carrots, sliced into matchsticks", "1 clove garlic, minced", "1 pinch chilli flakes", "1 lb thinly-sliced sirloin steak", "4 large eggs", "1.5 lb cooked white rice", "4 tsp toasted sesame oil", "1 tsp sesame seeds"]
+          instructions: [
+              "Mix cucumber pieces with about 4 tbsp Korean hot pepper paste in a bowl; set aside.",
+              "Bring 500ml water to the boil in a large nonstick pan and stir in spinach; cook until spinach is bright green and wilted, 2 to 3 minutes. Drain spinach and squeeze out as much water as possible; set spinach aside in a bowl. Stir soy sauce into spinach.",
+              "Heat 1 tsp olive oil in large nonstick pan and cook and stir carrots until softened, about 3 minutes. Stir in garlic and cook just until fragrant, about 1 more minute. Stir in cucumber pieces with Korean hot pepper paste; sprinkle with chilli flakes, and set the mixture aside in a bowl.",
+              "Cook steak slices in a clean nonstick pan over medium heat, about 5 - 7 minutes, and set aside. In a separate nonstick pan, heat 1 tsp olive oil over medium-low heat and fry the eggs just on one side until yolks are runny but whites are firm, 2 to 4 minutes each.",
+              "To assemble the dish, divide cooked rice into 4 large serving bowls; top with spinach mixture, a few pieces of steak and some of the cucumber mixture. Place 1 egg on top of each serving. Drizzle each bowl with 1 teaspoon of sesame oil, a sprinkle of sesame seeds, and a small amount of Korean hot pepper paste if desired."
+          ]
 	}
-];
+  }
+  className: "east-asia-dinner",
+  dinner: {
+      name: "Kung Pao Chicken"
+      img: "kung-pao-chicken.jpg"
+      desc: "A spicy, stir-fried Chinese dish made with cubes of chicken, peanuts, vegetables (traditionally Welsh onion only), and chili peppers originated from Sichuan Province."
+      recipe: {
+          ingredients: ["2 tbsp sake or Chinese rice wine", "2 tbsp soy sauce", "2 tbsp sesame oil", "2 tbsp cornflour dissolved in 2 tbsp water", "500g (1 1/4 lb) skinless, boneless chicken breast fillets, diced", "1-2 tbsp dried crushed chillies", "1 tsp rice vinegar", "1 dsp dark brown soft sugar", "4 spring onions, chopped", "6 cloves garlic, chopped", "1 (220g) tin water chestnuts", "100g (4 oz) peanuts"]
+          instructions: [
+              "Combine the sake or rice wine, soy sauce, sesame oil and cornflour dissolved in water. Divide mixture in half.",
+              "In a glass dish or bowl, combine half of the sake mixture with the chicken pieces and toss to coat. Cover dish and place in refrigerator for about 30 minutes.",
+              "In a medium frying pan, combine remaining sake mixture, chillies, vinegar and sugar. Mix together and add spring onion, garlic, water chestnuts and peanuts. Heat sauce slowly over medium heat until aromatic.",
+              "Meanwhile, remove chicken from marinade and sauté in a large frying pan until juices run clear. When sauce is aromatic, add sautéed chicken and let simmer together until sauce thickens."
+          ]
+      }
+  }
 
+  region: "South Asia",
+  className: "south-asia-breakfast",
+  color: #1CAA8C,
+  breakfast: {
+      name: "Halwa Poori"
+      img: "halwa-poori.jpg"
+      desc: "A traditional Pakistani and Indian breakfast that features semolina pudding or halwa and a soft fried dough called poori." 
+      recipe: {
+          ingredients: ["2 cups all purpose flour", "1 cup flour", "1 pinch salt", "1/2 tsp oil", "lukewarm water", "oil for frying"]
+          instructions: [
+              "Mix and sift both the flours in a bowl.",
+              "Add salt and oil and mix well.",
+              "Knead the dough with lukewarm water, add water slowly and gradually, knead till well mixed and soft (dough should not be too hard or too soft).",
+              "Make 10 equal size balls of the dough. On a oily surface, flatten each ball to a round flattened shape (poori). Make sure don’t use flour while making poori, use oil.",
+              "Heat oil in a pan. Make sure that oil should be sizzling hot.",
+              "Fry a poori for 4 to 5 second on one side then turn it upside down, fry for about 5 seconds and take it out from the oil, place it on the paper. Do not fry for too long as that will make poori very stiff and not soft.",
+              "Serve them hot with hot semolina halwa and white chickpeas gravy."
+          ]
+      }
+  }
+  className: "south-asia-lunch",
+  lunch: {
+      name: "Yellow Lentil Dal" 
+      img: "yellow-lentil-dal.jpg"
+      desc: "A simple, nourishing stew-like preparation served with rice or flat bread that is the national dish of India . It can also be found in Nepal, Sri Lanka, Pakistan, and Bangladesh. 
+      recipe: {
+          ingredients: ["2 tbsp canola oil", "3 tsp whole cumin seeds", "2 tsp red pepper flakes", "1 medium onion, diced (1 1/2 cups)", "2 cloves garlic, minced (2 tsp)", "1 tsp salt", "1 1/2 cups yellow lentils, sorted and rinsed", "2 cups low-sodium vegetable broth", "1 tsp ground turmeric"]
+          instructions: [
+              "Heat oil in saucepan over medium-high heat. Stir in cumin and red pepper flakes, and sauté 1 minute. Add onion, garlic, and salt, and sauté 1 minute more.",
+              "Add lentils, vegetable broth, 2 cups water, and turmeric. Cover, reduce heat to medium-low, and simmer 25 minutes, or until liquid is absorbed."
+          ]
+      }
+  }
+  className: "south-asia-dinner",
+  dinner: {
+      name: "Butter Chicken"
+      img: "butter-chicken.jpg"
+      desc: "The best known of all Indian dishes, butter chicken, also known as murgh makhani, is a staple dish at most Indian restaurants."
+      recipe: {
+          ingredients: ["6 tablespoons butter, divided", "2 lbs boneless/skinless chicken thighs, cut into 1” chunks", "1 yellow onion, diced", "3 garlic cloves, minced", "1 tbsp garam masala", "1 tbsp fresh grated ginger", "1 tsp chili powder", "1 tsp ground cumin", "1/2 tsp cayenne pepper", "1 1/2 cups (14oz) tomato sauce", "2 cups cream", "salt and pepper", "lime and cilantro", "naan and rice"]
+          instructions: [
+              "Using 2 tbsp of butter in a large skillet over medium-high heat, brown the pieces of the chicken so each side is browned. They do not need to be fully cooked all the way through. Work in batches, and set aside when you’re done.",
+              "Melt another 2 Tbsp of butter in the pan over medium heat. Add the onion, and cook until beginning to soften (about three minutes). Add the garlic, garam masala, ginger, chili powder, cumin, and cayenne. Stir to combine, and cook for about 45 seconds before adding the tomato sauce.",
+              "Bring the mixture to a simmer and let cook for five minutes before adding the cream. Bring the mixture back to a simmer, add the browned chicken, and let simmer for 10-15 minutes. Keep the heat low.",
+              "Stir in the remaining 2 tbsp of butter, and season with salt and pepper.",
+              "Serve garnished with lime and cilantro, alongside rice and naan."
+          ]
+      }
+  }
+
+  region: "Middle East",
+  className: "middle-east-breakfast",
+  color: #3293D3,
+  breakfast: {
+      name: "Falafel"
+      img: "falafel.jpg"
+      desc: "Protein-packed chickpea fritters which is Israel's national dish."
+      recipe: {
+          ingredients: ["1 cup dried chickpeas", "1/2 large onion, roughly chopped (about 1 cup)", "2 tbsp finely chopped fresh parsley", "2 tbsp finely chopped fresh cilantro", "1 tsp salt", "1/2-1 tsp dried hot red pepper", "4 cloves of garlic", "1 tsp cumin", "1 tsp baking powder", "4-6 tbsp flour", "Soybean or vegetable oil for frying", "Chopped tomato for garnish", "Diced onion for garnish", "Diced green bell pepper for garnish", "Tahina sauce", "Pita bread"]
+          instructions: [
+              "Put the chickpeas in a large bowl and add enough cold water to cover them by at least 2 inches. Let soak overnight, then drain. Or use canned chickpeas, drained.",
+              "Place the drained, uncooked chickpeas and the onions in the bowl of a food processor fitted with a steel blade. Add the parsley, cilantro, salt, hot pepper, garlic, and cumin. Process until blended but not pureed.",
+              "Sprinkle in the baking powder and 4 tablespoons of the flour, and pulse. You want to add enough bulgur or flour so that the dough forms a small ball and no longer sticks to your hands. Turn into a bowl and refrigerate, covered, for several hours.",
+              "Form the chickpea mixture into balls about the size of walnuts, or use a falafel scoop, available in Middle-Eastern markets.",
+              "Heat 3 inches of oil to 375ºF in a deep pot or wok and fry 1 ball to test. If it falls apart, add a little flour. Then fry about 6 balls at once for a few minutes on each side, or until golden brown. Drain on paper towels. Stuff half a pita with falafel balls, chopped tomatoes, onion, green pepper, and pickled turnips. Drizzle with tahina thinned with water."
+          ]
+      }
+  }
+  className: "middle-east-lunch",
+  lunch: {
+      name: "Shawarma"
+      img: "shawarma.jpg"
+      desc: "A delicious Middle Eastern meat treat made with either lamb, turkey, chicken, beef, or a mix of different meats which are slow-cooked for hours and basted in their own juices and fat, gaining an incomparable succulence, but the real secret to a perfect shawarma is in the marinade."
+      recipe: {
+          ingredients: ["2lb /1 kg chicken thigh fillets", "1 large garlic clove, minced", "1 tbsp ground coriander", "1 tbsp ground cumin", "1 tbsp ground cardamon", "1 tsp ground cayenne pepper", "2 tsp smoked paprika", "2 tsp salt", "Black pepper", "3 tbsp lemon juice", "3 tbsp olive oil", "1 cup Greek yoghurt", "1 clove garlic, crushed", "1 tsp cumin", "Salt and pepper", "6 flatbreads", "Sliced lettuce", "Tomato slices"]
+          instructions: [
+              "Combine 1 minced large garlic clove, 1 tbsp ground coriander, 1 tbsp ground cumin, 1 tbsp ground cardamon, 1 tsp ground cayenne pepper, 2 tsp smoked paprika, 2 tsp salt black pepper, 2 tbsp lemon juice, 3 tbsp olive oil in a large ziplock bag or bowl for marinade.",
+              "Add the chicken and use your hands to make sure each piece is coated. If using a ziplock bag, I find it convenient to close the bag then massage the bag to disperse the rub all over each chicken piece.",
+              "Marinate overnight or up to 24 hours.",
+              "Combine the yogurt ingredients (1 cup Greek yoghurt, 1 clove crushed garlic, 1 tsp cumin, 1 tsp of lemon juice, salt and pepper) in a bowl and mix. Cover and put in the fridge until required (it will last for 3 days in the fridge).",
+              "Heat grill/BBQ (or large heavy based pan on stove) on medium high. You should not need to oil it because the marinade has oil in it and also thigh fillets have fat.",
+              "Place chicken on the grill and cook the first side for 4 to 5 minutes until nicely charred, then turn and cook the other side for 3 to 4 minutes (the 2nd side takes less time).",
+              "Remove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.",
+              "Slice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce.",
+              "To make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!"
+          ]
+      }
+  }
+  className: "middle-east-dinner",
+  dinner: {
+      name: "Cholent"
+      img: "cholent.jpg"
+      desc: "a traditional Jewish stew characterized by its long cooking time traditionally cooked on Friday, before the Jewish Sabbat, when all work is forbidden."
+      recipe: {
+          ingredients: ["3 onions, quartered", "4 tbsp vegetable oil", "4 lbs chuck roast, cut into large chunks", "1 cup dry kidney beans", "1 cup dried pinto beans", "1 cup pearl barley", "5 large potatoes, peeled and cut into thirds", "boiling water", "2 (1 ounce) packages dry onion and mushroom soup mix", "2 tbsp garlic powder", "Salt and pepper"]
+          instructions: [
+              "In a large oven safe pot or roasting pan, saute onions in oil over medium heat.",
+              "Add meat, and brown well on all sides.",
+              "Add meat, and brown well on all sides.",
+              "Preheat oven to 200 degrees F (95 degrees C).",
+              "Cover pot tightly, and place in preheated oven. Allow to cook overnight for at least 10 to 15 hours. Check periodically to make sure you have enough liquid to cover; add small amounts of water if needed. Do not stir; stirring will break up the chunks of potatoes."
+          ]
+      }
+  }
+
+region: "Eastern Europe and Russia",
+  className: "eastern-europe-and-russia-breakfast",
+  color: #F19800,
+  breakfast: {
+      name: "Adjarian Khachapuri"
+      img: "adjarian-khachapuri.jpg"
+      desc: "A traditional cheese bread from the country of Georgia. Boat shaped bread filled with cheeses, egg, and butter."
+      recipe: {
+          ingredients: ["2 cups all-purpose flour", "1/4 oz packet active dry yeast (1 1/2 tsp)", "1/3 cup warm water", "1/3 cup warm milk", "1/2 tsp salt", "1 tbsp canola oil plus a little extra", "4 ounces feta cheese, crumbled", "4 ounces low-moisture mozzarella cheese, shredded", "3 large eggs", "2 tbsp unsalted butter"]
+          instructions: [
+              "Combine the flour and yeast together in a large mixing bowl or the bowl of a stand mixer. Stir in the water, milk, salt, and 1 tbsp oil until well combined.",
+              "Knead the dough by hand or with the hook attachment of your stand mixer until smooth and elastic, about 5 minutes.",
+              "Lightly oil the bottom and sides of a large bowl. Form the dough into a ball and place in the oiled bowl. Loosely cover the bowl and set in a warm place. Allow the dough to rise until doubled in size, about 1 hour.",
+              "Preheat the oven to 450°F. Prepare a baking sheet lined with parchment paper.",
+              "Place the dough on a floured surface and divide into 2 balls. Roll each dough ball out into a 10 inch circle.",
+              "Roll the edges of each dough circle towards the center to form a 1 inch tall wall all around. Form the dough into a boat shape and pinch together each end. Place the dough boats on the baking sheet lined with parchment paper.",
+              "In a mixing bowl combine the feta and mozzarella cheeses. Fill the dough boats evenly with the cheese mix.",
+              "Beat 1 of the eggs in a small bowl and brush the edges of the dough boats with it.",
+              "Bake the boats in the preheated oven for 10 to 12 minutes or until the edges are lightly browned.",
+              "Remove the bread from the oven and make a slight indentation in the center of each bread boat using the back of a spoon.",
+              "Carefully crack an egg in each indentation, return the bread boats to the oven and bake until the egg whites are just set, 4 to 5 minutes.",
+              "Remove the breads from the oven and place 1 tbsp of butter on top of each egg.",
+              "Enjoy the bread by tearing off pieces of the edge and dipping it in the egg and cheese center or eat it with a fork."
+          ]
+      }
+  }
+  className: "eastern-europe-and-russia-lunch",
+  lunch: {
+      name: "Sarma"
+      img: "sarma.jpg"
+      desc: "Serbian stuffed cabbage, or sarma, is a hearty dish that many Serbs serve every day but especially for special occasions like slavas and other holidays."
+      recipe: {
+          ingredients: ["1 (3-4 lbs) head cabbage", "1 lb ground chuck", "1/2 lb ground pork", "1 cup raw rice, rinsed", "1 (1.4 oz) package dehydrated onion soup mix", "1 (32 oz) jar sauerkraut, rinsed and drained", "6 medium smoked ribs, ham hocks, or other smoked meat", "1 (8 oz) can tomato sauce", "1 (10 3/4 oz) can tomato soup"]
+          instructions: [
+              "Steam the head of cabbage until the outer leaves are limp, then cool slightly and separate the leaves.",
+              "With a paring knife, remove the tough ribs from the leaves without damaging them. Reserve the tougher outer leaves, but don't use for rolling.",
+              "In a medium bowl, mix together the ground chuck, ground pork, rice, and onion soup mix.",
+              "Adding a small amount of water will make the mixture easier to handle.",
+              "Heap 2 tbsp of filling onto each steamed, prepared cabbage leaf.",
+              "Fold the bottom of the cabbage leaf up over the meat.",
+              "Fold sides to the center and roll away from yourself to encase completely.",
+              "Repeat until the meat filling is gone.",
+              "Heat oven to 350 F.",
+              "Discard the cabbage core and coarsely chop any remaining cabbage except the tough outer leaves you have reserved.",
+              "Spread the chopped cabbage on the bottom of a large casserole dish or Dutch oven. Add the drained sauerkraut.",
+              "Layer on the cabbage rolls, seam-side down.",
+              "Cut the smoked ribs into pieces. Space the ribs or other smoked meat of choice between the cabbage rolls.",
+              "Cover rolls with reserved tough outer leaves.",
+              "Mix tomato sauce and soup with enough water to make a liquidy consistency.",
+              "Pour over rolls until mixture is level with rolls, but not over the top.",
+              "Cover the casserole dish and bake 1 hour.",
+              "Then reduce temperature to 325 F and bake for 2 more hours.",
+              "Let sit 20 to 30 minutes before serving.",
+          ]
+      }
+  }
+  className: "eastern-europe-and-russia-dinner",
+  dinner: {
+      name: "Piti"
+      img: "piti.jpg"
+      desc: "Made with lamb meat, chickpeas, chestnuts, dried plums, onions, saffron, potatoes, and sheep tail fat, Piti owes its unmistakable taste to the clay pot in which it's made - the dopu."
+      recipe: {
+          ingredients: ["500 g (1.1 lb) of lamb", "2 onions", "1 large tomato", "2 quinces", "2 potatoes", "3 tbsp dry peas chickpeas", "2 tbsp mint", "Salt pepper", "Black peppercorns"]
+          instructions: [
+              "Soak chickpeas in water for 10 hours. Drain the water, rinse the peas. Cut the meat into small pieces. Onion cut into half rings, quince cubes.",
+              "Preheat the oven to 190 degree C (356 degree F). Put onions, meat, quince and peas in pots. To make it soup, fill the pots on half. Add 1 cup of boiling water to each pot, cover with lids and put in the oven for 30 minutes.",
+              "After 30 minutes take out the pots from the oven. Add potato and tomato, cut into large pieces. If necessary, add more water, but not too much, because water can spill out. Salt and pepper to taste. Cook another 40 minutes.",
+              "To take out pots with soup from an oven to add finely cut mint and peas of black pepper. Leave it under the lid for 3 minutes. Serve the soup with pita bread. You can eat directly from the pot, or you can pour into a plate."
+          ]
+      }
+  }
+
+region: "West Africa",
+  className: "west-africa-breakfast",
+  color: #96B5D2,
+  breakfast: {
+      name: "Waakye"
+      img: "waakye.jpg"
+      desc: "This versatile dish is a favorite street food and comes served on a large waakye leaf."
+      recipe: {
+          ingredients: ["225-250g (8-9oz) dried black-eyed beans, or 400g (14oz) can organic black-eyed beans or red kidney beans", "400g (14oz) medium or long-grain brown rice", "1 tbsp coconut oil", "1 onion, finely diced", "3-4 dried millet or sorghum leaves, or 1 tsp bicarbonate of soda", "1 red Anaheim chili, or bird's-eye chili, thinly sliced", "Sea salt", "1 litre (1.75 pints) boiling water, or good quality chicken or vegetable stock", "Garnish (optional)", "2 soft-boiled eggs, shelled and halved", "Small bunch of chives, finely sliced", "1 green chili, finely sliced"]
+          instructions: [
+             "Rinse the beans, place in a large saucepan, cover with water, bring to the boil, reduce the heat and simmer for at least 1 hour or until the beans are tender enough to be squeezed easily between thumb and forefinger. Drain and set aside. For a faster execution, use a can of beans - just drain, rinse and drain again.",
+             "Wash the rice in several changes of cold water until the water runs clear - I wash it at least 3 times - then drain.",
+             "Heat a large, heavy-based saucepan. Add the oil and onion and saute over a medium heat for about 3 minutes or until lightly golden.",
+             "Meanwhile, wash the dried millet or sorghum leaves, if using - swiftly because the color will start to run as soon as they get wet - and cut them into 3-4 inch pieces.",
+             "Add the rice, beans, leaves, chili and salt to the onions, tossing slightly. Stir in the measured water or stock (and the bicarbonate of soda if using). Simmer, covered, for 15 minutes.",
+             "Turn off the heat. Leave to stand, covered, for 15 minutes until the water has been absorbed and the rice is tender.",
+             "Garnish with the soft-boiled eggs, chives and green chili, if liked, and serve with hot sauce as a side to any meat or veg-based stew."
+             ]
+      }
+  }
+  className: "west-africa-lunch",
+  lunch: {
+      name: "Garden Egg Stew"
+      img: "garden-egg-stew.jpg"
+      desc: "A popular Ghanaian dish featuring African eggplant, or garden egg as its main ingredient. The stew is often served for lunch or dinner, accompanied by boiled plantains."
+      recipe: {
+          ingredients: ["15 Thai eggplants aka green garden-egg", "6 plum tomatoes", "1 large white onion", "¼ cup palm oil", "1 scotch bonnet pepper, chopped", "340 g (0.75 lb) smoked mackerel the equivalent of one large mackerel skinned and deboned", "1 tsp chicken/ vegetable bullion", "1 small handful of Clove basil aka Nigerian scent leaf/Thai basil", "Salt"]
+          instructions: [
+              "To prep the garden eggs/eggplants , take off the stems, wash and quarter each then boil in salted water for 10- 15 minutes.",
+              "While the garden eggs/eggplants are boiling, slice the onions into half-moons, dice the tomatoes, roughly chop the basil, and flake the fish.",
+              "Once the garden eggs/eggplants are fork tender, drain them, and mash them with a potato masher or a fork. They should be the consistency of crushed tomatoes, only slightly chunky.",
+              "In a deep saucepan, heat up the palm oil for 2 minutes (be careful not to heat the oil for too long or over high heat, unless the oil will bleach), and gently sauté the onions and scotch bonnet peppers until it is softened and starting to brown ever so lightly on the edges of the onions.",
+              "Add in the tomatoes, and cook over medium heat for about 20 minutes, or until the sauce thickens, and the oil starts to raise to the top.",
+              "Add in the mashed eggplant, and continue cooking on low-medium heat for five minutes.",
+              "Add in the smoked mackerel, dried shrimp, and bullion, stir and continue to simmer on low heat.",
+              "Taste the stew, and adjust for salt. Stir in the chopped basil, and turn off the heat.",
+              "Serve warm with a side of your favorite carbs."
+          ]
+      }
+  }
+  className: "west-africa-dinner",
+  dinner: {
+      name: "Jollof Rice"
+      img: "jollof-rice.jpg"
+      desc: "A Nigerian dish with Senegalese origins that can be found all over West Africa with some variations in the ingredients. It's believed that jollof rice is the predecessor to the popular Cajun dish jambalaya."
+      recipe: {
+          ingredients: ["1/3 cup oil (vegetable/canola/coconut, not olive oil)", "6 medium-sized fresh plum/Roma tomatoes, chopped", "6 fresh, red poblano peppers, seeds discarded", "3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided", "1/2 to 1 hot pepper, or to taste", "3 tbsp tomato paste", "2 tsp (Caribbean/Jamaican-style) curry powder", "1 tsp dried thyme", "2 dried bay leaves", "5 to 6 cups stock (vegetable, chicken, or beef) or water, divided", "2 tsp unsalted butter", "4 cups uncooked converted long-grain rice or golden sella basmati, rinsed", "Salt", "Black and white pepper]
+          instructions: [
+              "In a blender, combine tomatoes, red poblano peppers, chopped onions, and Scotch bonnets with 2 cups of stock, blend till smooth, about a minute or two. You should have roughly 6 cups of blended mix. Pour into a large pot/ pan and bring to the boil then turn down and let simmer, covered for 10 - 12 minutes.",
+              "In a large pan, heat oil and add the sliced onions. Season with a pinch of salt, stir-fry for 2 to 3 minutes, then add the bay leaves, curry powder and dried thyme and a pinch of black pepper for 3 - 4 minutes on medium heat. Then add the tomato paste - stir for another 2 minutes. Add the reduced tomato-pepper-Scotch bonnet mixture, stir, and set on medium heat for 10 to 12 minutes till reduced by half, with the lid on. This is the stew that will define the pot.",
+              "Add 4 cups of the stock to the cooked tomato sauce and bring it to boil for 1 - 2 minutes.",
+              "Add the rinsed rice and butter, stir, cover with a double piece of foil/baking or parchment paper and put a lid on the pan—this will seal in the steam and lock in the flavour. Turn down the heat and cook on low for 30 minutes.",
+              "Stir rice—taste and adjust as required.",
+              "If you like, add sliced onions, fresh tomatoes and the 2nd teaspoon of butter and stir through.",
+          ]
+      }
+  }
+
+  region: "Southern Africa",
+  className: "southern-africa-breakfast",
+  color: #C3620A,
+  breakfast: {
+      name: "Putu Pap"
+      img: "putu-pap.jpg"
+      desc: "A staple dish of South Africa, particularly in Cape Town."
+      recipe: {
+          ingredients: ["1 lt water", "2 tsp salt", "800 g (1.7 lb) maize meal", "2 tbsp butter"]
+          instructions: [
+              "In a pot with a heavy bottom, preferably cast iron, bring the water to a boil. Add salt.",
+              "Add the maize meal to the water by aiming for the center of the pot. This should create a tower of maize that comes out of the water. Do not touch the maize tower.",
+              "Place a lid over the pot, and keep the pot on low heat for around 18 minutes.",
+              "Stir the porridge with a large fork until it becomes crumbly.",
+              "Add just one cup of water. The water should instantly be absorbed by the porridge, stir again.",
+              "Replace the lid and steam the mixture over low heat for about 15 minutes. Do not open lid too often, but only once or twice to stir and to make sure that it is not burning.",
+              "When the putu pap is ready to serve, stir in the butter."
+          ]
+      }
+  }
+  className: "southern-africa-lunch",
+  lunch: {
+      name: "Bunny Chow"
+      img: "bunny-chow.jpg"
+      desc: "Originated in the city of Durban, Bunny Chow is a South African dish consisting of a half or a quarter loaf of bread that is hollowed out and stuffed with curry that has been cooked with kidney beans or meats such as mutton, chicken, and lamb. It is traditionally consumed without utensils."
+      recipe: {
+          ingredients: ["1 pound chicken thighs or breast cut in bite-sized pieces", "1/2 cup canola or cooking oil", "2-3 Curry leaves", "1 tsp minced ginger", "2 tsp minced garlic", "1 tbps curry powder", "1 medium onion, diced", "2 medium tomatoes, diced", "1 cinnamon stick", "1 1/2 tsp paprika", "3 green cardamom pods, lightly crushed", "8 oz or less potatoes, cleaned and cut into cubes", "1 15 oz can chickpeas, rinsed and drained", "½ teaspoon cayenne pepper, optional", "11/2 cup or more chicken broth or water", "Salt and pepper"]
+          instructions: [
+              "heat up large Sauce- pan with oil, and add onions, garlic,ginger, cinnamon stick, curry leaves, cardamom pods and curry powder, stir occasionally for about 2-3 minutes until onions is translucent.",
+              "Add tomatoes followed by chicken, stir and sauté for about 2-3 more minutes. Add chicken stock/ water if necessary to prevent any burns.",
+              "Next add chickpeas, potatoes and chicken broth , about 1 1 1/2 cup , add more as needed. Bring to a boil and let it simmer until sauce thickens, it might take about 25 minutes or more.",
+              "Adjust for salt, pepper and stew consistency."
+          ]
+      }
+  }
+  className: "southern-africa-dinner",
+  dinner: {
+      name: "Peri Peri Chicken"
+      img: "peri-peri-chicken.jpg"
+      desc: "Q Mozambican dish consisting of grilled or roasted chicken that is often served with a creamy and spicy coconut sauce."
+      recipe: {
+          ingredients: ["¼ cup paprika", "2 tbsp hot chili powder", "1 cup fresh lemon juice", "3 cloves garlic, minced", "1 ½ tsp chopped fresh ginger", "1 ½ tsp salt", "4 bone-in chicken breast halves"]
+          instructions: [
+              "In a large bowl, stir together the paprika, chili powder, lemon juice, garlic, ginger and salt. Rub chicken with the mixture, place in a dish, and marinate for 3 hours.",
+              "Preheat a grill for medium heat.",
+              "Place chicken onto the grill and discard the marinade. Cook for about 30 minutes, turning occasionally, until the skin is slightly charred and juices run clear."
+          ]
+      }
+  }
+
+  region: "English North America",
+  className: "english-north-america-breakfast",
+  color: #CD3B3A,
+  breakfast: {
+      name: "Bacon, Egg and Cheese Sandwich"
+      img: "bacon-egg-and-cheese-sandwich"
+      desc: "This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it."
+      recipe: {
+          ingredients: ["4 slices of whole wheat or white bread", "4 slices of bacon", "2 eggs", "2 slices of cheese", "2 tsp of milk or water", "Salt", "Pepper", "3 tsp of butter"]
+          instructions: [
+              "Grill 4 slices of bacon on a frying pan for 3-5 minutes.",
+              "Beat eggs, milk, salt and pepper in small bowl until blended.",
+              "Heat 1 tsp butter in large nonstick skillet over medium heat until hot. Pour egg mixture into skillet. As eggs begin to set, gently pull the eggs across the pan with an inverted turner, forming large soft curds. Continue cooking—pulling, lifting and folding eggs—until thickened and no visible liquid egg remains. Do not stir constantly. Remove from pan. Clean skillet.",
+              "Spread remaining 2 tsp butter evenly on one side of each bread slice. Place two slices in skillet, buttered side down. Top evenly with scrambled eggs, cheese and bacon. Cover with remaining bread, buttered side up.",
+              "Grill sandwiches over medium heat, turning once, until bread is toasted and cheese is melted, 2 to 4 minutes."
+          ]
+      }
+  }
+  className: "english-north-america-lunch",
+  lunch: {
+      name: "All American Sub"
+      img: "all-american-sub"
+      desc: "The American submarine sandwich, also known as the American sub, All-American sub, American hoagie or American hero, is a type of submarine sandwich similar to the ham and cheese sandwich and Italian sandwich."
+      recipe: {
+          ingredients: ["1 lb sub bread", "1/2 lb shaved turkey", "1/2 lb shaved ham", "1/4 lb thin sliced salami", "1⁄4 lb thin sliced white American cheese", "1⁄4 lb thin sliced lorraine swiss cheese", "crisp lettuce leaf", "2 tomatoes, in thin slices", "1 yellow sweet onion, in thin slices", "mayonnaise", "honey mustard", "salt & fresh ground pepper"]
+          instructions: [
+              "Cut loaf of bread (french, Italian, or grain bread) in half, lengthwise.",
+              "Spread one half with mayonnaise the other with mustard.", 
+              "Cover each bread half with lettuce.",
+              "Layer meats, cheeses and top with veggies. Salt and pepper to taste.",
+              "Place top half on securing with party toothpicks.",
+              "Cut into serving slices."
+          ]
+      }
+  }
+  className: "english-north-america-dinner",
+  dinner: {
+      name: "Mac and Cheese"
+      img: "mac-and-cheese.jpg"
+      desc: "Although it is an American staple, the dish was probably inspired by various pasta and cheese dishes that were enjoyed in Italy, France, and the United Kingdom, before its appearance in the United States."
+      recipe: {
+          ingredients: ["6 tbsp unsalted butter, plus more to grease the baking dish", "1 cup (120g) panko breadcrumbs", "24 oz (680g) sharp or extra-sharp Cheddar, grated", "14 oz (400g) elbow macaroni", "3 ¼ cups (780ml) whole milk", "3 tbsp all-purpose flour", "1 ½ tsp dry mustard", "1 tsp fine sea salt", "1/2 tsp freshly ground black pepper"]
+          instructions: [
+              "Set the oven to 350°F (175°C) and grease a 9x13-inch (23x33cm) baking dish with butter. Place the panko breadcrumbs in a small bowl, then melt three tablespoons of butter in a small saucepan over moderate heat.",
+              "Once melted, drizzle the butter over the panko breadcrumbs and toss them to ensure they are all coated. Next, add a handful of grated cheese to the buttered breadcrumbs and stir them to combine.",
+              "Bring a large pot of water to a boil, add the elbow macaroni, and cook until al dente. Drain, but do not rinse, and return to the pot.",
+              "Warm the milk in a small saucepan over moderate heat and right as the milk begins to steam, and tiny bubbles start to appear around the edges, remove from the heat — the milk should not boil.",
+              "In a medium saucepan, add the remaining butter and melt it over moderate heat. Once melted add the flour and using a flat-edged wooden spoon blend the butter and flour together making sure you scrape the bottom to prevent the mixture from burning.",
+              "After about three minutes, the mixture should turn light brown in color at which point, slowly pour in the warm milk while constantly stirring for about three minutes until the sauce thickens.",
+              "Remove from the heat, add the seasonings (dry mustard, salt, and pepper) and stir them in. Lastly, add the remaining grated cheese into the sauce and stir until it has completely melted.",
+              "Pour the resulting sauce over the pasta, and stir, making sure that every piece of pasta is evenly coated in the sauce.",
+              "Scrape the macaroni and cheese into the previously greased baking dish, smooth out the surface and sprinkle with the panko-cheese mixture.",
+              "Bake for 30 minutes in a preheated oven or until the top is light golden brown in color."
+          ]
+      }
+  }
+];
