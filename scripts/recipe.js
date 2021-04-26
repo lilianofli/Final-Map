@@ -27,7 +27,8 @@ let data = [
           "Refrigerate the torrijas for at least 4 hours, but preferably overnight.",
           "Enjoy within two or three days for best quality!"
         ] 
-  },
+  }
+},
   className: "latin-america-lunch",
   lunch: {
     name: "Grilled Chicken, Mango & Blue Cheese Tortillas",
@@ -59,7 +60,9 @@ let data = [
         "Drizzle pineapple-avocado salsa over baked chicken, add steamed rice and beans to the side and enjoy!"
       ]
     }
-  },
+  }
+},
+{
   region: "Central Asia",
   color: "#0DBFD6",
   className: "central-asia-breakfast",
@@ -118,8 +121,9 @@ let data = [
         "Serve chicken hot over steamed rice and drizzle with reserved sauce."
       ]
     }
-  },
-  
+  }
+},
+{ 
   region: "Oceania",
   className: "oceania-breakfast",
   region: "#F5069D",
@@ -161,7 +165,9 @@ let data = [
         "Serve with coconut rice, or regular steamed rice."
       ]
     }
-  },
+  }
+}
+{
   region: "Western Europe",
   className: "western-europe-breakfast",
   color: "#5E2B8A",
@@ -217,7 +223,9 @@ let data = [
         "Remove meat from bones and return to soup. Remove bay leaf and serve."
       ]
     }
-  },
+  }
+}
+{
   region: "North Africa",
   color: "#006F36",
   className: "north-africa-breakfast",
@@ -282,10 +290,11 @@ let data = [
         "Add cinnamon stick, saffron, and spices and cook until toasted, 1 minute more. Add lamb, apricots, and broth to pot and season with salt and pepper.",
         "Bring to a boil, then reduce heat and let simmer, covered, until lamb is tender and liquid is reduced, about 1½ hours.",
         "Remove from heat and stir in cilantro. Garnish with toasted almonds, mint, and more cilantro. Serve over warm couscous."
-    }
+      ]
   }
-},
-
+}
+}
+{
 region: "Central Africa",
 className: "central-africa-breakfast",
 color: "#E7BE0E",
@@ -323,7 +332,7 @@ lunch: {
       "Increase heat and place each meatball in the sauce very carefully. Cook over high heat for 10 minutes.",
       "Then cook over medium heat for 20 minutes. And finally simmer for 30 minutes.",
       "When cooked, increase the temperature if necessary, to reduce the sauce. Serve with plain rice."
-    ],
+    ]
   }
 },
 className: "central-africa-dinner",
@@ -339,10 +348,11 @@ dinner: {
       "Cover the cooker, set to High, and cook until the sweet potatoes are tender and the sauce has thickened, 4 to 5 hours."
     ]
   }
-},
-
+}
+}
+{
 region: "East Africa",
-className: "east-africa-breakfast"
+className: "east-africa-breakfast",
 color: "#E95B34",
 breakfast: {
   name: "Bharazi and Mandazi",
@@ -355,7 +365,7 @@ breakfast: {
       "Drain the cooked liquid from the tuver. Take a pan, add coconut. Once the bharazi has been cooked, pour the coconut milk into a pan and start to heat it.",
       "Add the bharazi, spices and the pastes and bring to boil until the sauce starts to thicken but still soupy.",
       "Using warm water bind the flour into a semi-stiff dough (puri like). Knead the dough well.",
-      "Cover and set aside for an hour or two. Divide the dough into balls."
+      "Cover and set aside for an hour or two. Divide the dough into balls.",
       "Roll into saucer sized circle that is 1/2 cm. thick. Cut in to four pieces, keep on the side for 30 minutes.",
       "Deep fry and serve warm with Bharazi. Enjoy!"
     ]
@@ -389,7 +399,9 @@ lunch: {
     "Add the green pepper slices, lemon juice, salt, turmeric, paprika, allspice, and ginger root. Cook until peppers are soft, about 5 minutes."
   ]
   }
-},
+}
+}
+{
 
 		region: "Southeast Asia",
 		className: "southeast-asia-breakfast",
