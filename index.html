@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Around the World in 48 Recipes</title>
-	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
 	<main class="container">
-	<link rel="stylesheet" href="/styles/style.css">
-		
-	</head>
-	<body>
-		<main class="container">
-			<h2>Around the World in 48 Recipes</h2>
-			<p>Tired of boring, quarantine recipes? Wishing you can travel? Try these recipes curated just for you and your tastebuds to travel around the world.</p>
+		<h2>Around the World in 48 Recipes</h2>
+		<p>Tired of boring, quarantine recipes? Wishing you can travel? Try these recipes curated just for you and your
+			tastebuds to travel around the world.</p>
 		<!--
 		  <div class="region-group"><label>Region:</label>
 			<input type="radio" name="region" checked onchange="regionSelection(this.value)" value="Latin America"> Latin America
@@ -29,72 +31,74 @@
 			<input type="radio" name="region"> Central Africa
 			<input type="radio" name="region"> East Africa
 			</div> -->
-			<!-- one group for region, meal / button for get recipe-->
-		
+		<!-- one group for region, meal / button for get recipe-->
+
 		<!-- Region -->
 		<fieldset>
-		  <legend>Region</legend>
+			<legend>Region</legend>
 			<div class="region-group">
-			<label>
-			  <input type="radio" name="region" checked onchange="regionSelection(this.value)" value="Latin America"/>
-			  <span>Latin America</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="South Asia"/>
-			  <span>South Asia</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Middle East"/>
-			  <span>Middle East</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Middle East"/>
-			  <span>Eastern Europe & Russia</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="West Africa"/>
-			  <span>West Africa</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Southern Africa"/>
-			  <span>Southern Africa</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="English North America"/>
-			  <span>English North America</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Southeast Asia"/>
-			  <span>Southeast Asia</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Central Asia"/>
-			  <span>Central Asia</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Oceania"/>
-			  <span>Oceania</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Western Europe"/>
-			  <span>Western Europe</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="North Africa"/>
-			  <span>North Africa</span>
-			</label>
-			<label>
-			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Central Africa"/>
-			  <span>Central Africa</span>
-			</label>
-		   <label>
-			  <input type="radio" name="region"onchange="regionSelection(this.value)" value="East Africa"/>
-			  <span>East Africa</span>
-			</label>
-		  </div>
+				<label>
+					<input type="radio" name="region" checked onchange="regionSelection(this.value)"
+						value="Latin America" />
+					<span>Latin America</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="South Asia" />
+					<span>South Asia</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Middle East" />
+					<span>Middle East</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Middle East" />
+					<span>Eastern Europe & Russia</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="West Africa" />
+					<span>West Africa</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Southern Africa" />
+					<span>Southern Africa</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)"
+						value="English North America" />
+					<span>English North America</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Southeast Asia" />
+					<span>Southeast Asia</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Central Asia" />
+					<span>Central Asia</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Oceania" />
+					<span>Oceania</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Western Europe" />
+					<span>Western Europe</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="North Africa" />
+					<span>North Africa</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="Central Africa" />
+					<span>Central Africa</span>
+				</label>
+				<label>
+					<input type="radio" name="region" onchange="regionSelection(this.value)" value="East Africa" />
+					<span>East Africa</span>
+				</label>
+			</div>
 		</fieldset>
-		
-		<br>  
+
+		<br>
 		<!--
 		 <div id="recipe" class="meal-group"><label>Meal:</label>
 				<input type="radio" name="meal-option" checked onchange="mealSelection(this.value)" id="breakfast" value="breakfast"> Breakfast
@@ -102,31 +106,39 @@
 				<input type="radio" name="meal-option" > Dinner
 			</div>
 		 <div id = "recipe"></div> -->
-		 
-		<!-- Meal -->
-		  <fieldset>
-		  <legend>Meal</legend>
-			<div id="recipe" class="meal-group">
-			<label>
-			  <input type="radio" name="meal-option" checked onchange="mealSelection(this.value)" id="breakfast" value="breakfast"> <span>Breakfast</span>
-			</label>
-			  <label>
-			  <input type="radio" name="meal-option" onchange="mealSelection(this.value)" id="lunch" value="lunch"> <span>Lunch</span>
-			  </label>
-			  <label>
-			  <input type="radio" name="meal-option" onchange="mealSelection(this.value)" id="dinner" value="dinner"> <span>Dinner</span>
-			  </label>
-		  </div>
-		</fieldset>
-		 <br>
-		  <div id="recipe"></div>
-		  <div id="recipe"></div>
 
-		  <div class="get-recipe-button">
-		  <button type="button" class="btn-recipe" id="btn-summary">Get Recipe</button>
-		  <button type="button" class="btn-clear">Clear Choices</button>
-		  </div>
-<script src="scripts/recipe.js"></script>
+		<!-- Meal -->
+		<fieldset>
+			<legend>Meal</legend>
+			<div id="recipe" class="meal-group">
+				<label>
+					<input type="radio" name="meal-option" checked onchange="mealSelection(this.value)" id="breakfast"
+						value="breakfast"> <span>Breakfast</span>
+				</label>
+				<label>
+					<input type="radio" name="meal-option" onchange="mealSelection(this.value)" id="lunch"
+						value="lunch">
+					<span>Lunch</span>
+				</label>
+				<label>
+					<input type="radio" name="meal-option" onchange="mealSelection(this.value)" id="dinner"
+						value="dinner">
+					<span>Dinner</span>
+				</label>
+			</div>
+		</fieldset>
+		<br>
+		<div id="recipeDisplay"></div>
+		<!-- <div id="recipe"></div> -->
+
+		<div class="get-recipe-button">
+			<button type="button" class="btn-recipe" id="btn-summary">Get Recipe</button>
+			<button type="button" class="btn-clear">Clear Choices</button>
+		</div>
+		<script src="scripts/recipe.js">
+
+		</script>
+</body>
 </body>
 
 </html>
