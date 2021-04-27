@@ -1,6 +1,58 @@
 let confirmBtn = document.getElementsByClassName("btn-recipe")[0];
+let clearBtn = document.getElementsByClassName("btn-clear")[0];
+
 
 confirmBtn.addEventListener("click", getRecipe);
+clearBtn.addEventListener("click", clearRecipe);
+
+function clear ()
+{
+  document.getElementById("recipe").innerHTML="";
+}
+
+
+
+function getRecipe() {  
+  
+  for (let i = 0;i<data.length;i++) {
+    let tempClassname = region.split(' ').join('-') + "-"+meal;
+    tempClassname = tempClassname.toLowerCase();
+    console.log("temp class name:"+tempClassname);
+    console.log(data[i].className);
+    if (data[i].className == tempClassname) {
+      if (meal == "breakfast") {
+        recipe=data[i].breakfast.recipe; 
+        console.log(recipe);
+        document.getElementById("recipe").innerHTML= JSON.stringify(recipe);
+      }
+      if (meal == "lunch") {
+        recipe=data[i].lunch.recipe;
+        console.log(recipe);
+        document.getElementById("recipe").innerHTML= JSON.stringify(recipe);
+      }
+      if (meal == "dinner") {
+        recipe=data[i].dinner.recipe;
+        console.log(recipe);
+        document.getElementById("recipe").innerHTML= JSON.stringify(recipe);
+      return;
+    } 
+  }
+  }
+
+  
+
+function regionSelection(regionOption) {
+  region = regionOption; 
+  console.log("user made a region selection: ",region);
+}
+
+function mealSelection(mealOption) {
+  meal = mealOption; 
+  console.log("user made a region selection: ",meal);
+}
+// console.log("test: "+data[0][breakfast][recipe]);
+
+
 
 var region;
 var recipe; //recipe is an object
