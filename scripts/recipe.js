@@ -5,7 +5,7 @@ let data = [
     color: "#5AB443",
 		breakfast: {
 			name: "Torrijas",
-      img: "torrijas.jpg", 
+      img: "images/torrijas.jpg", 
       desc: 
         "A cross between french toast and bread pudding, it’s a simple Spanish dessert commonly eaten for breakfast.",
       recipe: {
@@ -32,7 +32,7 @@ let data = [
   className: "latin-america-lunch",
   lunch: {
     name: "Grilled Chicken, Mango & Blue Cheese Tortillas",
-    img: "tortillas.jpg",
+    img: "images/tortillas.jpg",
     desc: "A refreshing recipe for the summer and for families.",
     recipe: {
       ingredients: ["1 boneless skinless chicken breasts", "1 tsp blackened seasoning", "3/4 cup plain yogurt","1-1/2 tsp grated lime zest", "2 tbsp lime juice", "1/4 tsp salt", "1/8 tsp pepper", "1 cup finely chopped peeled mango", "1/3 cup finely chopped red onion", "4 flour tortillas", "1/2 cup crumbled blue cheese", "2 tbsp minced fresh cilantro"],
@@ -47,7 +47,7 @@ let data = [
   className: "latin-america-dinner",
   dinner: {
     name: "Cuban Mojo Chicken",
-    img: "cuban-mojo.jpg",
+    img: "images/cuban-mojo.jpg",
     desc: "A flavorful bomb explosion with the perfect Cuban Mojo sauce.",
     recipe: {
       ingredients: ["4 bone-in chicken leg quarters", "½ cup orange juice", "⅓ lime juice", "3 garlic cloves", "¼ cup cilantro", "1 lime zest", "½ tbsp cumin", "1 tsp dried oregano", "1 tsp salt", "½ tsp black ground pepper", "½ cup olive oil", "1 onion quartered", "½ avocado", "4 ounces pineapple diced", "1/2 cup cherry tomatoes"],
@@ -68,7 +68,7 @@ let data = [
   className: "central-asia-breakfast",
   breakfast: {
     name: "Uzbek",
-    img: "uzbek.png",
+    img: "images/uzbek.png",
     desc: "A heavy, fulfilling breakfast to start the day in Central Asia!",
     recipe: {
       ingredients: ["1 1/2 lb lamb (or beef)", "2 medium onions", "5 medium carrots", "3 cup long grain rice", "3 bay leaves", "1 bulb of garlic", "1/2 cup olive oil"],
@@ -92,7 +92,7 @@ let data = [
   className: "central-asia-lunch",
   lunch: {
     name: "Lagman Soup",
-    img: "lagman.jpg",
+    img: "images/lagman.jpg",
     desc: "An easy but traditional noodle soup from Uzbek. Hearty and filling, the dish will not disappoint.",
     recipe: {
       ingredients: ["2 tbsp olive oil", "1 onion, finely chopped", "½ pound beef chuck, cut into strips", "1 tsp ground cumin", "½ teaspoon ground black pepper", "2 tbsp tomato paste", "1 carrot, cut into thin strips", "1 green bell pepper, cut into 1-inch strips", "3 small potatoes, cubed", "½ cup thinly sliced celery", "8 cups water", "½ cup finely chopped parsley", "2 (8 ounce) packages thin Chinese noodles", "3 large cloves garlic, minced"],
@@ -110,7 +110,7 @@ let data = [
   className: "central-asia-dinner",
   dinner: {
     name: "Adobo Chicken",
-    img: "adobo.jpg",
+    img: "images/adobo.jpg",
     desc: "A favorite Asian chicken dish that's coated in a sweet, savory glaze with hints of spices from peppercorns.",
     recipe: {
       ingredients: ["1 whole chicken, cut into 8 pieces", "1/2 cup soy sauce", "3/4 cup distilled white vinegar", "1 bulb garlic, peeled and crushed", "4cm fresh ginger, peeled and thinly sliced", "2 bay leaves", "1/2 tablespoon black peppercorns"],
@@ -129,7 +129,7 @@ let data = [
   region: "#F5069D",
   breakfast: {
     name: "Topai",
-    img: "topai.png",
+    img: "images/topai.png",
     desc: "Delicious, sweet dumplings with coconut sauce that is popular in Central Asia and a Tongan delicacy everyone should try.",
     recipe: {
       ingredients: ["4 cups of plain flour", "4 teaspoons of baking powder", "1 tablespoon of sugar", "1 cup of coconut cream", "2 - 2 1/2 cups of water", "2 cups raw sugar", "2 cups of coconut cream"],
@@ -139,7 +139,7 @@ let data = [
   className: "oceania-lunch",
   lunch: {
     name: "Cheese Rolls with Bacon",
-    img: "cheese-rolls.jpg",
+    img: "images/cheese-rolls.jpg",
     desc: "Cheese rolls, also known as southern sushi, is a popular dish in Oceania with a twist of bacon.",
     recipe: {
       ingredients: ["2 rashers of bacon", "2 tbsp diced onion", "1 cup tasty cheese, grated", "2 tbsp mayonnaise", "1 tbsp chopped parsley", "14 slices of fresh white bread", "30g butter, melted"],
@@ -153,7 +153,7 @@ let data = [
   className: "oceania-dinner",
   dinner: {
     name: "Tuna Coconut Curry",
-    img: "tuna-curry.jpg",
+    img: "images/tuna-curry.jpg",
     desc: "From remote islands of Oceania come a delightful recipe with common fish, spice, and coconut milk to enjoy by the beach.",
     recipe: {
       ingredients: ["3 tbsp coconut oil", "1 medium onion chopped", "1 tsp ginger grated", "2 cloves garlic minced", "2 Thai bird chili peppers", "1 tbsp curry powder", "1 14 oz. can coconut milk", "4 scallions chopped", "1 cucumber peeled, seeded and cut lengthwise", "4 Tablespoons soy sauce", "1 lb tuna steaks, raw cut into cubes"],
@@ -173,7 +173,7 @@ let data = [
   color: "#5E2B8A",
   breakfast: {
     name: "Polish Sweet Rolls",
-    img: "polish-rolls.jpg",
+    img: "images/polish-rolls.jpg",
     desc: "Polish cheese sweet rolls, or drozdzówki z serem, is topped with sweet cheese curd filling for a delicious breakfast.",
     recipe: {
       ingredients: ["1 package yeast (active dry)", "1 tsp sugar", "1/4 cup water (warm)", "1 cup milk (warm)", "50 g butter", "40 g sugar", "2 large eggs", "550 g flour (all-purpose)", "400 g dry curd (or farmer's cheese)", "3 tbsp sugar (confectioners')", "1 large egg yolk", "1 tbsp sugar (vanilla)", "1 large egg (beaten with 1 tsp water for egg glaze)"],
@@ -193,7 +193,7 @@ let data = [
   className: "western-europe-lunch",
   lunch: {
     name: "Quiche Lorraine",
-    img: "quiche.jpg",
+    img: "images/quiche.jpg",
     desc: "From the 1950s, the quiche has become a worldwide dish for its tart filling.",
     recipe: {
       ingredients: ["Pastry for a one-crust nine-inch pie", "4 strips bacon", "1 onion, thinly sliced", "1 cup Gruyère or Swiss cheese, cubed", "¼ cup grated Parmesan cheese", "4 eggs, lightly beaten", "2 cups heavy cream or 1 cup each milk and cream", "¼ teaspoon nutmeg", "½ teaspoon salt", "¼ teaspoon freshly ground pepper"],
@@ -211,7 +211,7 @@ let data = [
   className: "western-europe-dinner",
   dinner: {
     name: "Oxtail Barley Soup",
-    img: "oxtail.jpg",
+    img: "images/oxtail.jpg",
     desc: "A hearty sop for winter, summer, or any time! It spans the boundaries of European countries.",
     recipe: {
       ingredients: ["2 pounds oxtails (rinsed and patted dry)", "3 quarts water (cold)", "1 cup barley (not quick-cooking; rinsed)", "1 bay leaf", "6 black peppercorns", "2 cloves garlic (finely chopped)", "4 ribs celery (sliced 1/4-inch thick)", "1 large onion (coarsely chopped)", "1 tablespoon beef base (or 1 1/2 teaspoons salt)", "4 carrots (sliced 1/2-inch thick)", "1 (14-ounce) can diced tomatoes (with juice)"],
@@ -231,7 +231,7 @@ let data = [
   className: "north-africa-breakfast",
   breakfast: {
     name: "Shakshuka",
-    img: "shakshuka.jpg",
+    img: "images/shakshuka.jpg",
     desc: "A North African baked egg dish, perfect especially for brunch with bread to mop up everything.",
     recipe: {
       ingredients: ["3T Olive oil", "1 red onion, diced", "1 large red bell pepper, thinly sliced or diced", "1 large yellow bell pepper, sliced or diced", "4 garlic cloves, rough chopped", "3/4 tsp salt", "1 tsp cumin", "1 tsp sugar", "1 tsp smoked paprika", "1/2 tsp aleppo chili flakes", "3 medium tomatoes diced small with juices", "1/3 cup water or white wine", "2 tablespoons fresh basil ribbons, chopped cilantro or Italian parsley", "4–6 Extra large organic eggs"],
@@ -251,7 +251,7 @@ let data = [
   className: "north-africa-lunch",
   lunch: {
     name: "Egyptian Molokhia",
-    img: "molokhia.jpg",
+    img: "images/molokhia.jpg",
     desc: "A rich, hearty gumbo with Egyptian traditional spices.",
     recipe: {
       ingredients: ["1 lb. Andouille sausage", "2 tbsp olive oil", "4 cups diced yellow onions", "3 cups diced celery (½-inch pieces), divided", "2 cups diced green bell pepper", "2 bay leaves", "3 tbsp. gumbo filé powder", "1 tbsp. minced fresh garlic", "4 tsp kosher salt", "1⁄4 tsp dried thyme", "1⁄2 tsp freshly ground black pepper", "1⁄4 tsp. freshly ground white pepper", "12 cups unsalted chicken stock or water", "3-4 lbs bone-in chicken pieces", "3 cups all-purpose flour", "3 tbsp Cajun seasoning", "2 cups vegetable or peanut oil", "cooked rice"],
@@ -278,7 +278,7 @@ let data = [
   className: "north-africa-dinner",
   dinner: {
     name: "Lamb Tagine",
-    img: "tagine.png",
+    img: "images/tagine.png",
     desc: "Sweet and savory, filled with spices, this North African dish perfectly summarizes the culture and history with a spoonful.",
     recipe: {
       ingredients: ["4 lb. boneless lamb roast", "3 c. low-sodium chicken broth", "1 c. dried apricots", "3 tbsp. extra-virgin olive oil", "1 onion, chopped", "4 cloves garlic, sliced", "2 tsp. freshly minced ginger", "2 tbsp. tomato paste", "1 cinnamon stick", "1/2 tsp. ground turmeric", "1/2 tsp. ground coriander", "1/4 tsp. ground cardamom", "1/4 tsp. ground cloves", "1/4 tsp. ground nutmeg", "1/4 c. freshly chopped cilantro", "1/2 c. toasted almond slivers", "Torn mint leaves, for serving"],
@@ -300,7 +300,7 @@ className: "central-africa-breakfast",
 color: "#E7BE0E",
 breakfast: {
   name: "Baked Plantain Frittata",
-  img: "plantain.jpg",
+  img: "images/plantain.jpg",
   desc: "A healthier and delicious version of plantains that still makes your mouth water with lots of eggs and veggies.",
   recipe: {
     ingredients: ["2-3 ripe plantains", "1 tbsp canola oil", "1/2 medium onion thinly sliced", "1 scotch bonnet pepper diced sub hot sauce", "½ red/green bell pepper", "1 small tomatoes", "1 tsp minced garlic", "1 tsp paprika", "1 tsp fresh thyme", "6 large eggs", "1 avocado optional", "1/2 -1 cup sausage chopped", "Coarse salt and ground pepper"],
@@ -318,7 +318,7 @@ breakfast: {
 className: "central-africa-lunch",
 lunch: {
   name: "Kanda",
-  img: "kanda.jpg",
+  img: "images/kanda.jpg",
   desc: "Meatball lovers! Enjoy this Moroccan heritage dish with its history of spices, pumpkin, and rice balls.",
   recipe: {
     ingredients: [
@@ -338,7 +338,7 @@ lunch: {
 className: "central-africa-dinner",
 dinner: {
   name: "Chicken Marrakesh",
-  img: "marrakesh.jpg",
+  img: "images/marrakesh.jpg",
   desc: "A Moroccan-style recipe that will definitely become a favorite dish of the household.",
   recipe: {
     ingredients: ["1 onion, sliced", "2 cloves garlic, minced", "2 large carrots, peeled and diced", "2 large sweet potatoes, peeled and diced", "1 (15 ounce) can garbanzo beans, drained and rinsed", "2 pounds skinless, boneless chicken breast halves, cut into 2-inch pieces", "½ teaspoon ground cumin", "½ teaspoon ground turmeric", "¼ teaspoon ground cinnamon", "½ teaspoon ground black pepper", "1 teaspoon dried parsley", "1 teaspoon salt", "1 (14.5 ounce) can diced tomatoes"],
@@ -356,7 +356,7 @@ className: "east-africa-breakfast",
 color: "#E95B34",
 breakfast: {
   name: "Bharazi and Mandazi",
-  img: "mandazi.jpg",
+  img: "images/mandazi.jpg",
   desc: "This is a rich East African dish, the culinary heritage of the homeland, of dried pigeon peas and coconut milk curry.",
   recipe: {
     ingredients: ["1 + 1/2 cup dried whole pigeon peas/suki tuver", "2 cups thick coconut milk (more if required)", "2 teaspoons ginger+green chilli paste", "a pinch of turmeric powder", "1 teaspoon lemon juice", "finely chopped coriander to garnish", "2 cups white flour", "4 tablespoons ghee", "6 tablespoons sugar", "1 + 1/2 teaspoons baking powder", "warm water to bind the dough", "oil for deep frying"],
@@ -374,7 +374,7 @@ breakfast: {
 className: "east-africa-lunch",
 lunch: {
   name: "Gomen Wat",
-  img: "gomen.jpg",
+  img: "images/gomen.jpg",
   desc: "A traditional Ethiopian vegetarian dish with all kinds of spices that is as hearty as any meal.",
   recipe: {
     ingredients: 
@@ -408,7 +408,7 @@ lunch: {
     color: "#030C9B",
 		breakfast: {
 			name: "Bubur Ayam",
-			img: "bubur-ayam.jpg",
+			img: "images/bubur-ayam.jpg",
 			desc:
 				"Indonesians have a saying: All Rice, All Day. This common breakfast is a thick rice porridge with shredded chicken, scallions, shallots, cilantro, crushed peanuts, and boiled eggs. The dish has a generous dose of soy sauce, seame oil, or fish sauce.",
 			recipe: {
@@ -428,7 +428,7 @@ lunch: {
   className: "southeast-asia-lunch",
   lunch: {
     name: "Char Hor Fun",
-    img: "char-hor-fun.jpg",
+    img: "images/char-hor-fun.jpg",
     desc: "From a little island in Malaysia, this dish is soaked in gravy with thick, rice noodles and prawns. It is a favorite dish often sold in hawker centers.",
     recipe: {
       ingredients: ["1/2 pack hor fun/flat rice noodles", "1/2 pack vermicelli", "12 shrimps", "12 pieces pork meat", "12 thin pieces of fish cake", "3 cloves garlic", "3 tablespoons oil", "1/2 tablespoon soy sauce", "2 dashes white pepper powder", "2 tablespoons corn flour"],
@@ -449,7 +449,7 @@ lunch: {
   className: "southeast-asia-dinner",
   dinner: {
     name: "Coconut Shrimp Curry",
-    img: "shrimp-curry.jpg",
+    img: "images/shrimp-curry.jpg",
     desc: "An easy Thai curry made with coconut milk that is a favorite, comfort food.",
     recipe: {
       ingredients: ["18 medium-sized shrimps", "2 tbsp white onions chopped into cubes", "2 cloves garlic finely chopped", "1/4 cup water", "1/2 cup coconut milk", "1 1/2 tbsp unsalted butter", "1 tbsp fish sauce", "3 1/2 tbsp Thai red curry paste", "3 kaffir lime leaves", "1/2 tsp sugar", "1 1/2 tbsp lime juice"],
