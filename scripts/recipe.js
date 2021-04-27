@@ -166,7 +166,7 @@ let data = [
       ]
     }
   }
-}
+},
 {
   region: "Western Europe",
   className: "western-europe-breakfast",
@@ -224,7 +224,7 @@ let data = [
       ]
     }
   }
-}
+},
 {
   region: "North Africa",
   color: "#006F36",
@@ -293,7 +293,7 @@ let data = [
       ]
   }
 }
-}
+},
 {
 region: "Central Africa",
 className: "central-africa-breakfast",
@@ -349,7 +349,7 @@ dinner: {
     ]
   }
 }
-}
+},
 {
 region: "East Africa",
 className: "east-africa-breakfast",
@@ -400,7 +400,7 @@ lunch: {
   ]
   }
 }
-}
+},
 {
 
 		region: "Southeast Asia",
@@ -429,9 +429,9 @@ lunch: {
   lunch: {
     name: "Char Hor Fun",
     img: "char-hor-fun.jpg",
-    desc: "From a little island in Malaysia, this dish is soaked in gravy with thick, rice noodles and prawns. It is a favorite dish often sold in hawker centers. "
+    desc: "From a little island in Malaysia, this dish is soaked in gravy with thick, rice noodles and prawns. It is a favorite dish often sold in hawker centers.",
     recipe: {
-      ingredients: ["1/2 pack hor fun/flat rice noodles", "1/2 pack vermicelli", "12 shrimps", "12 pieces pork meat", "12 thin pieces of fish cake", "3 cloves garlic", "3 tablespoons oil", "1/2 tablespoon soy sauce", "2 dashes white pepper powder", "2 tablespoons corn flour"]
+      ingredients: ["1/2 pack hor fun/flat rice noodles", "1/2 pack vermicelli", "12 shrimps", "12 pieces pork meat", "12 thin pieces of fish cake", "3 cloves garlic", "3 tablespoons oil", "1/2 tablespoon soy sauce", "2 dashes white pepper powder", "2 tablespoons corn flour"],
       instructions: [
         "Soak the vermicelli in warm water for 15 minutes or until soft. Drain the water and set aside.",
         "Break the flat rice noodles off by peeling the layers. Set aside.",
@@ -450,12 +450,12 @@ lunch: {
   dinner: {
     name: "Coconut Shrimp Curry",
     img: "shrimp-curry.jpg",
-    desc: "An easy Thai curry made with coconut milk that is a favorite, comfort food."
+    desc: "An easy Thai curry made with coconut milk that is a favorite, comfort food.",
     recipe: {
-      ingredients: ["18 medium-sized shrimps", "2 tbsp white onions chopped into cubes", "2 cloves garlic finely chopped", "1/4 cup water", "1/2 cup coconut milk", "1 1/2 tbsp unsalted butter", "1 tbsp fish sauce", "3 1/2 tbsp Thai red curry paste", "3 kaffir lime leaves", "1/2 tsp sugar", "1 1/2 tbsp lime juice"]
+      ingredients: ["18 medium-sized shrimps", "2 tbsp white onions chopped into cubes", "2 cloves garlic finely chopped", "1/4 cup water", "1/2 cup coconut milk", "1 1/2 tbsp unsalted butter", "1 tbsp fish sauce", "3 1/2 tbsp Thai red curry paste", "3 kaffir lime leaves", "1/2 tsp sugar", "1 1/2 tbsp lime juice"],
       instructions: [
         "Heat 1/2 tbsp of butter in a pan over medium high heat.",
-        "Season the shrimp with salt and pepper and cook over medium high heat for about 30 seconds on each side until thoroughly cooked. Remove from heat and set aside."
+        "Season the shrimp with salt and pepper and cook over medium high heat for about 30 seconds on each side until thoroughly cooked. Remove from heat and set aside.",
         "Melt the rest of the butter on pan over medium high heat. Cook the onions and garlic until soft and fragrant, about 2 minutes.",
         "Add the Thai red curry paste and mix well. Add in the water, coconut milk, sugar and kaffir lime leaves. Stir well until well combined. Add the fish sauce and mix well.",
         "Let sauce cook over medium to medium high heat until it boils and thickens. Remove from heat and season with salt and pepper.",
@@ -463,10 +463,12 @@ lunch: {
         "Squeeze about 1 1/2 tablespoon of lime juice and mix well. Garnish with coriander leaves and serve with white rice."
       ]
     }
-  },
+  }
+},
+  {
   region: "East Asia",
   className: "east-asia-breakfast",
-  color: #AA96F6,
+  color: "#AA96F6",
   breakfast: {
       name: "Onsen Tamago"
       img: "onsen-tamago.jpg"
@@ -512,7 +514,8 @@ lunch: {
           ]
       }
   }
-
+  }
+  {
   region: "South Asia",
   className: "south-asia-breakfast",
   color: #1CAA8C,
@@ -854,4 +857,4 @@ region: "West Africa",
           ]
       }
   }
-];
+]
