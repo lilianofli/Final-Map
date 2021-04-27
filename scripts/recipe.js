@@ -5,7 +5,7 @@ let data = [
     color: "#5AB443",
 		breakfast: {
 			name: "Torrijas",
-      img: "images/torrijas.jpg", 
+      img: "torrijas.jpg", 
       desc: 
         "A cross between french toast and bread pudding, it’s a simple Spanish dessert commonly eaten for breakfast.",
       recipe: {
@@ -32,7 +32,7 @@ let data = [
   className: "latin-america-lunch",
   lunch: {
     name: "Grilled Chicken, Mango & Blue Cheese Tortillas",
-    img: "images/tortillas.jpg",
+    img: "tortillas.jpg",
     desc: "A refreshing recipe for the summer and for families.",
     recipe: {
       ingredients: ["1 boneless skinless chicken breasts", "1 tsp blackened seasoning", "3/4 cup plain yogurt","1-1/2 tsp grated lime zest", "2 tbsp lime juice", "1/4 tsp salt", "1/8 tsp pepper", "1 cup finely chopped peeled mango", "1/3 cup finely chopped red onion", "4 flour tortillas", "1/2 cup crumbled blue cheese", "2 tbsp minced fresh cilantro"],
@@ -47,7 +47,7 @@ let data = [
   className: "latin-america-dinner",
   dinner: {
     name: "Cuban Mojo Chicken",
-    img: "images/cuban-mojo.jpg",
+    img: "cuban-mojo.jpg",
     desc: "A flavorful bomb explosion with the perfect Cuban Mojo sauce.",
     recipe: {
       ingredients: ["4 bone-in chicken leg quarters", "½ cup orange juice", "⅓ lime juice", "3 garlic cloves", "¼ cup cilantro", "1 lime zest", "½ tbsp cumin", "1 tsp dried oregano", "1 tsp salt", "½ tsp black ground pepper", "½ cup olive oil", "1 onion quartered", "½ avocado", "4 ounces pineapple diced", "1/2 cup cherry tomatoes"],
@@ -68,7 +68,7 @@ let data = [
   className: "central-asia-breakfast",
   breakfast: {
     name: "Uzbek",
-    img: "images/uzbek.png",
+    img: "uzbek.png",
     desc: "A heavy, fulfilling breakfast to start the day in Central Asia!",
     recipe: {
       ingredients: ["1 1/2 lb lamb (or beef)", "2 medium onions", "5 medium carrots", "3 cup long grain rice", "3 bay leaves", "1 bulb of garlic", "1/2 cup olive oil"],
@@ -92,7 +92,7 @@ let data = [
   className: "central-asia-lunch",
   lunch: {
     name: "Lagman Soup",
-    img: "images/lagman.jpg",
+    img: "lagman.jpg",
     desc: "An easy but traditional noodle soup from Uzbek. Hearty and filling, the dish will not disappoint.",
     recipe: {
       ingredients: ["2 tbsp olive oil", "1 onion, finely chopped", "½ pound beef chuck, cut into strips", "1 tsp ground cumin", "½ teaspoon ground black pepper", "2 tbsp tomato paste", "1 carrot, cut into thin strips", "1 green bell pepper, cut into 1-inch strips", "3 small potatoes, cubed", "½ cup thinly sliced celery", "8 cups water", "½ cup finely chopped parsley", "2 (8 ounce) packages thin Chinese noodles", "3 large cloves garlic, minced"],
@@ -110,7 +110,7 @@ let data = [
   className: "central-asia-dinner",
   dinner: {
     name: "Adobo Chicken",
-    img: "images/adobo.jpg",
+    img: "adobo.jpg",
     desc: "A favorite Asian chicken dish that's coated in a sweet, savory glaze with hints of spices from peppercorns.",
     recipe: {
       ingredients: ["1 whole chicken, cut into 8 pieces", "1/2 cup soy sauce", "3/4 cup distilled white vinegar", "1 bulb garlic, peeled and crushed", "4cm fresh ginger, peeled and thinly sliced", "2 bay leaves", "1/2 tablespoon black peppercorns"],
@@ -129,7 +129,7 @@ let data = [
   region: "#F5069D",
   breakfast: {
     name: "Topai",
-    img: "images/topai.png",
+    img: "topai.png",
     desc: "Delicious, sweet dumplings with coconut sauce that is popular in Central Asia and a Tongan delicacy everyone should try.",
     recipe: {
       ingredients: ["4 cups of plain flour", "4 teaspoons of baking powder", "1 tablespoon of sugar", "1 cup of coconut cream", "2 - 2 1/2 cups of water", "2 cups raw sugar", "2 cups of coconut cream"],
@@ -139,7 +139,7 @@ let data = [
   className: "oceania-lunch",
   lunch: {
     name: "Cheese Rolls with Bacon",
-    img: "images/cheese-rolls.jpg",
+    img: "cheese-rolls.jpg",
     desc: "Cheese rolls, also known as southern sushi, is a popular dish in Oceania with a twist of bacon.",
     recipe: {
       ingredients: ["2 rashers of bacon", "2 tbsp diced onion", "1 cup tasty cheese, grated", "2 tbsp mayonnaise", "1 tbsp chopped parsley", "14 slices of fresh white bread", "30g butter, melted"],
@@ -153,7 +153,7 @@ let data = [
   className: "oceania-dinner",
   dinner: {
     name: "Tuna Coconut Curry",
-    img: "images/tuna-curry.jpg",
+    img: "tuna-curry.jpg",
     desc: "From remote islands of Oceania come a delightful recipe with common fish, spice, and coconut milk to enjoy by the beach.",
     recipe: {
       ingredients: ["3 tbsp coconut oil", "1 medium onion chopped", "1 tsp ginger grated", "2 cloves garlic minced", "2 Thai bird chili peppers", "1 tbsp curry powder", "1 14 oz. can coconut milk", "4 scallions chopped", "1 cucumber peeled, seeded and cut lengthwise", "4 Tablespoons soy sauce", "1 lb tuna steaks, raw cut into cubes"],
@@ -173,7 +173,7 @@ let data = [
   color: "#5E2B8A",
   breakfast: {
     name: "Polish Sweet Rolls",
-    img: "images/polish-rolls.jpg",
+    img: "polish-rolls.jpg",
     desc: "Polish cheese sweet rolls, or drozdzówki z serem, is topped with sweet cheese curd filling for a delicious breakfast.",
     recipe: {
       ingredients: ["1 package yeast (active dry)", "1 tsp sugar", "1/4 cup water (warm)", "1 cup milk (warm)", "50 g butter", "40 g sugar", "2 large eggs", "550 g flour (all-purpose)", "400 g dry curd (or farmer's cheese)", "3 tbsp sugar (confectioners')", "1 large egg yolk", "1 tbsp sugar (vanilla)", "1 large egg (beaten with 1 tsp water for egg glaze)"],
@@ -193,7 +193,7 @@ let data = [
   className: "western-europe-lunch",
   lunch: {
     name: "Quiche Lorraine",
-    img: "images/quiche.jpg",
+    img: "quiche.jpg",
     desc: "From the 1950s, the quiche has become a worldwide dish for its tart filling.",
     recipe: {
       ingredients: ["Pastry for a one-crust nine-inch pie", "4 strips bacon", "1 onion, thinly sliced", "1 cup Gruyère or Swiss cheese, cubed", "¼ cup grated Parmesan cheese", "4 eggs, lightly beaten", "2 cups heavy cream or 1 cup each milk and cream", "¼ teaspoon nutmeg", "½ teaspoon salt", "¼ teaspoon freshly ground pepper"],
@@ -211,7 +211,7 @@ let data = [
   className: "western-europe-dinner",
   dinner: {
     name: "Oxtail Barley Soup",
-    img: "images/oxtail.jpg",
+    img: "oxtail.jpg",
     desc: "A hearty sop for winter, summer, or any time! It spans the boundaries of European countries.",
     recipe: {
       ingredients: ["2 pounds oxtails (rinsed and patted dry)", "3 quarts water (cold)", "1 cup barley (not quick-cooking; rinsed)", "1 bay leaf", "6 black peppercorns", "2 cloves garlic (finely chopped)", "4 ribs celery (sliced 1/4-inch thick)", "1 large onion (coarsely chopped)", "1 tablespoon beef base (or 1 1/2 teaspoons salt)", "4 carrots (sliced 1/2-inch thick)", "1 (14-ounce) can diced tomatoes (with juice)"],
@@ -231,7 +231,7 @@ let data = [
   className: "north-africa-breakfast",
   breakfast: {
     name: "Shakshuka",
-    img: "images/shakshuka.jpg",
+    img: "shakshuka.jpg",
     desc: "A North African baked egg dish, perfect especially for brunch with bread to mop up everything.",
     recipe: {
       ingredients: ["3T Olive oil", "1 red onion, diced", "1 large red bell pepper, thinly sliced or diced", "1 large yellow bell pepper, sliced or diced", "4 garlic cloves, rough chopped", "3/4 tsp salt", "1 tsp cumin", "1 tsp sugar", "1 tsp smoked paprika", "1/2 tsp aleppo chili flakes", "3 medium tomatoes diced small with juices", "1/3 cup water or white wine", "2 tablespoons fresh basil ribbons, chopped cilantro or Italian parsley", "4–6 Extra large organic eggs"],
@@ -251,7 +251,7 @@ let data = [
   className: "north-africa-lunch",
   lunch: {
     name: "Egyptian Molokhia",
-    img: "images/molokhia.jpg",
+    img: "molokhia.jpg",
     desc: "A rich, hearty gumbo with Egyptian traditional spices.",
     recipe: {
       ingredients: ["1 lb. Andouille sausage", "2 tbsp olive oil", "4 cups diced yellow onions", "3 cups diced celery (½-inch pieces), divided", "2 cups diced green bell pepper", "2 bay leaves", "3 tbsp. gumbo filé powder", "1 tbsp. minced fresh garlic", "4 tsp kosher salt", "1⁄4 tsp dried thyme", "1⁄2 tsp freshly ground black pepper", "1⁄4 tsp. freshly ground white pepper", "12 cups unsalted chicken stock or water", "3-4 lbs bone-in chicken pieces", "3 cups all-purpose flour", "3 tbsp Cajun seasoning", "2 cups vegetable or peanut oil", "cooked rice"],
@@ -278,7 +278,7 @@ let data = [
   className: "north-africa-dinner",
   dinner: {
     name: "Lamb Tagine",
-    img: "images/tagine.png",
+    img: "tagine.png",
     desc: "Sweet and savory, filled with spices, this North African dish perfectly summarizes the culture and history with a spoonful.",
     recipe: {
       ingredients: ["4 lb. boneless lamb roast", "3 c. low-sodium chicken broth", "1 c. dried apricots", "3 tbsp. extra-virgin olive oil", "1 onion, chopped", "4 cloves garlic, sliced", "2 tsp. freshly minced ginger", "2 tbsp. tomato paste", "1 cinnamon stick", "1/2 tsp. ground turmeric", "1/2 tsp. ground coriander", "1/4 tsp. ground cardamom", "1/4 tsp. ground cloves", "1/4 tsp. ground nutmeg", "1/4 c. freshly chopped cilantro", "1/2 c. toasted almond slivers", "Torn mint leaves, for serving"],
@@ -300,7 +300,7 @@ className: "central-africa-breakfast",
 color: "#E7BE0E",
 breakfast: {
   name: "Baked Plantain Frittata",
-  img: "images/plantain.jpg",
+  img: "plantain.jpg",
   desc: "A healthier and delicious version of plantains that still makes your mouth water with lots of eggs and veggies.",
   recipe: {
     ingredients: ["2-3 ripe plantains", "1 tbsp canola oil", "1/2 medium onion thinly sliced", "1 scotch bonnet pepper diced sub hot sauce", "½ red/green bell pepper", "1 small tomatoes", "1 tsp minced garlic", "1 tsp paprika", "1 tsp fresh thyme", "6 large eggs", "1 avocado optional", "1/2 -1 cup sausage chopped", "Coarse salt and ground pepper"],
@@ -318,7 +318,7 @@ breakfast: {
 className: "central-africa-lunch",
 lunch: {
   name: "Kanda",
-  img: "images/kanda.jpg",
+  img: "kanda.jpg",
   desc: "Meatball lovers! Enjoy this Moroccan heritage dish with its history of spices, pumpkin, and rice balls.",
   recipe: {
     ingredients: [
@@ -338,7 +338,7 @@ lunch: {
 className: "central-africa-dinner",
 dinner: {
   name: "Chicken Marrakesh",
-  img: "images/marrakesh.jpg",
+  img: "marrakesh.jpg",
   desc: "A Moroccan-style recipe that will definitely become a favorite dish of the household.",
   recipe: {
     ingredients: ["1 onion, sliced", "2 cloves garlic, minced", "2 large carrots, peeled and diced", "2 large sweet potatoes, peeled and diced", "1 (15 ounce) can garbanzo beans, drained and rinsed", "2 pounds skinless, boneless chicken breast halves, cut into 2-inch pieces", "½ teaspoon ground cumin", "½ teaspoon ground turmeric", "¼ teaspoon ground cinnamon", "½ teaspoon ground black pepper", "1 teaspoon dried parsley", "1 teaspoon salt", "1 (14.5 ounce) can diced tomatoes"],
@@ -356,7 +356,7 @@ className: "east-africa-breakfast",
 color: "#E95B34",
 breakfast: {
   name: "Bharazi and Mandazi",
-  img: "images/mandazi.jpg",
+  img: "mandazi.jpg",
   desc: "This is a rich East African dish, the culinary heritage of the homeland, of dried pigeon peas and coconut milk curry.",
   recipe: {
     ingredients: ["1 + 1/2 cup dried whole pigeon peas/suki tuver", "2 cups thick coconut milk (more if required)", "2 teaspoons ginger+green chilli paste", "a pinch of turmeric powder", "1 teaspoon lemon juice", "finely chopped coriander to garnish", "2 cups white flour", "4 tablespoons ghee", "6 tablespoons sugar", "1 + 1/2 teaspoons baking powder", "warm water to bind the dough", "oil for deep frying"],
@@ -374,7 +374,7 @@ breakfast: {
 className: "east-africa-lunch",
 lunch: {
   name: "Gomen Wat",
-  img: "images/gomen.jpg",
+  img: "gomen.jpg",
   desc: "A traditional Ethiopian vegetarian dish with all kinds of spices that is as hearty as any meal.",
   recipe: {
     ingredients: 
@@ -470,11 +470,11 @@ lunch: {
   className: "east-asia-breakfast",
   color: "#AA96F6",
   breakfast: {
-      name: "Onsen Tamago"
-      img: "onsen-tamago.jpg"
-      desc: "A traditional Japanese delicacy made by slow-cooking eggs in baskets that are submerged in onsen hot springs, aka hot spring egg."
+      name: "Onsen Tamago",
+      img: "images/onsen-tamago.jpg",
+      desc: "A traditional Japanese delicacy made by slow-cooking eggs in baskets that are submerged in onsen hot springs, aka hot spring egg.",
       recipe: {
-          ingredients: ["1 egg", "1tsp dashi stock powder", "1 tbsp light soy sauce", "1 tbsp mirin"]
+          ingredients: ["1 egg", "1tsp dashi stock powder", "1 tbsp light soy sauce", "1 tbsp mirin"],
           instructions: [
               "Remove the from the fridge well in advance and leave to return to room temperature.",
               "Fill a pan with 1l of water and bring to the boil. When the water begins to simmer add 1 cup of cold water and turn off the heat.",
@@ -482,14 +482,14 @@ lunch: {
               "In a separate pan, add 100ml of water, then bring to the boil. Add the dashi stock powder, soy sauce and mirin, then simmer for a minute or two. Leave to one side to cool slightly, then serve with the egg."
           ]
       }
-  }
+  },
   className: "east-asia-lunch",
   lunch: {
-      name: "Bibimbap"
-      img: "bibimbap.jpg"
-      desc: "Literally meaning 'mixed rice,' it's rice with stir fried vegetables, strips of beef, flavoured with a spicy pepper paste and topped with a fried egg. "
+      name: "Bibimbap",
+      img: "images/bibimbap.jpg",
+      desc: "Literally meaning mixed rice, it's rice with stir fried vegetables, strips of beef, flavoured with a spicy pepper paste and topped with a fried egg.", 
       recipe: {
-          ingredients: ["1 cucumber, sliced into matchsticks", "4 tbsp Korean hot pepper paste", "1 bunch fresh spinach, sliced", "1 tbsp soy sauce", "2 tsp olive oil", "2 carrots, sliced into matchsticks", "1 clove garlic, minced", "1 pinch chilli flakes", "1 lb thinly-sliced sirloin steak", "4 large eggs", "1.5 lb cooked white rice", "4 tsp toasted sesame oil", "1 tsp sesame seeds"]
+          ingredients: ["1 cucumber, sliced into matchsticks", "4 tbsp Korean hot pepper paste", "1 bunch fresh spinach, sliced", "1 tbsp soy sauce", "2 tsp olive oil", "2 carrots, sliced into matchsticks", "1 clove garlic, minced", "1 pinch chilli flakes", "1 lb thinly-sliced sirloin steak", "4 large eggs", "1.5 lb cooked white rice", "4 tsp toasted sesame oil", "1 tsp sesame seeds"],
           instructions: [
               "Mix cucumber pieces with about 4 tbsp Korean hot pepper paste in a bowl; set aside.",
               "Bring 500ml water to the boil in a large nonstick pan and stir in spinach; cook until spinach is bright green and wilted, 2 to 3 minutes. Drain spinach and squeeze out as much water as possible; set spinach aside in a bowl. Stir soy sauce into spinach.",
@@ -497,15 +497,15 @@ lunch: {
               "Cook steak slices in a clean nonstick pan over medium heat, about 5 - 7 minutes, and set aside. In a separate nonstick pan, heat 1 tsp olive oil over medium-low heat and fry the eggs just on one side until yolks are runny but whites are firm, 2 to 4 minutes each.",
               "To assemble the dish, divide cooked rice into 4 large serving bowls; top with spinach mixture, a few pieces of steak and some of the cucumber mixture. Place 1 egg on top of each serving. Drizzle each bowl with 1 teaspoon of sesame oil, a sprinkle of sesame seeds, and a small amount of Korean hot pepper paste if desired."
           ]
-	}
-  }
+	    }
+  },
   className: "east-asia-dinner",
   dinner: {
-      name: "Kung Pao Chicken"
-      img: "kung-pao-chicken.jpg"
-      desc: "A spicy, stir-fried Chinese dish made with cubes of chicken, peanuts, vegetables (traditionally Welsh onion only), and chili peppers originated from Sichuan Province."
+      name: "Kung Pao Chicken",
+      img: "images/ung-pao-chicken.jpg",
+      desc: "A spicy, stir-fried Chinese dish made with cubes of chicken, peanuts, vegetables (traditionally Welsh onion only), and chili peppers originated from Sichuan Province.",
       recipe: {
-          ingredients: ["2 tbsp sake or Chinese rice wine", "2 tbsp soy sauce", "2 tbsp sesame oil", "2 tbsp cornflour dissolved in 2 tbsp water", "500g (1 1/4 lb) skinless, boneless chicken breast fillets, diced", "1-2 tbsp dried crushed chillies", "1 tsp rice vinegar", "1 dsp dark brown soft sugar", "4 spring onions, chopped", "6 cloves garlic, chopped", "1 (220g) tin water chestnuts", "100g (4 oz) peanuts"]
+          ingredients: ["2 tbsp sake or Chinese rice wine", "2 tbsp soy sauce", "2 tbsp sesame oil", "2 tbsp cornflour dissolved in 2 tbsp water", "500g (1 1/4 lb) skinless, boneless chicken breast fillets, diced", "1-2 tbsp dried crushed chillies", "1 tsp rice vinegar", "1 dsp dark brown soft sugar", "4 spring onions, chopped", "6 cloves garlic, chopped", "1 (220g) tin water chestnuts", "100g (4 oz) peanuts"],
           instructions: [
               "Combine the sake or rice wine, soy sauce, sesame oil and cornflour dissolved in water. Divide mixture in half.",
               "In a glass dish or bowl, combine half of the sake mixture with the chicken pieces and toss to coat. Cover dish and place in refrigerator for about 30 minutes.",
@@ -514,17 +514,18 @@ lunch: {
           ]
       }
   }
-  }
+  },
+
   {
   region: "South Asia",
   className: "south-asia-breakfast",
-  color: #1CAA8C,
+  color: "#1CAA8C",
   breakfast: {
-      name: "Halwa Poori"
-      img: "halwa-poori.jpg"
-      desc: "A traditional Pakistani and Indian breakfast that features semolina pudding or halwa and a soft fried dough called poori." 
+      name: "Halwa Poori",
+      img: "images/halwa-poori.jpg",
+      desc: "A traditional Pakistani and Indian breakfast that features semolina pudding or halwa and a soft fried dough called poori.", 
       recipe: {
-          ingredients: ["2 cups all purpose flour", "1 cup flour", "1 pinch salt", "1/2 tsp oil", "lukewarm water", "oil for frying"]
+          ingredients: ["2 cups all purpose flour", "1 cup flour", "1 pinch salt", "1/2 tsp oil", "lukewarm water", "oil for frying"],
           instructions: [
               "Mix and sift both the flours in a bowl.",
               "Add salt and oil and mix well.",
@@ -535,62 +536,63 @@ lunch: {
               "Serve them hot with hot semolina halwa and white chickpeas gravy."
           ]
       }
-  }
+  },
   className: "south-asia-lunch",
   lunch: {
-      name: "Yellow Lentil Dal" 
-      img: "yellow-lentil-dal.jpg"
-      desc: "A simple, nourishing stew-like preparation served with rice or flat bread that is the national dish of India . It can also be found in Nepal, Sri Lanka, Pakistan, and Bangladesh. 
+      name: "Yellow Lentil Dal", 
+      img: "images/yellow-lentil-dal.jpg",
+      desc: "A simple, nourishing stew-like preparation served with rice or flat bread that is the national dish of India . It can also be found in Nepal, Sri Lanka, Pakistan, and Bangladesh.", 
       recipe: {
-          ingredients: ["2 tbsp canola oil", "3 tsp whole cumin seeds", "2 tsp red pepper flakes", "1 medium onion, diced (1 1/2 cups)", "2 cloves garlic, minced (2 tsp)", "1 tsp salt", "1 1/2 cups yellow lentils, sorted and rinsed", "2 cups low-sodium vegetable broth", "1 tsp ground turmeric"]
+          ingredients: ["2 tbsp canola oil", "3 tsp whole cumin seeds", "2 tsp red pepper flakes", "1 medium onion, diced (1 1/2 cups)", "2 cloves garlic, minced (2 tsp)", "1 tsp salt", "1 1/2 cups yellow lentils, sorted and rinsed", "2 cups low-sodium vegetable broth", "1 tsp ground turmeric"],
           instructions: [
               "Heat oil in saucepan over medium-high heat. Stir in cumin and red pepper flakes, and sauté 1 minute. Add onion, garlic, and salt, and sauté 1 minute more.",
               "Add lentils, vegetable broth, 2 cups water, and turmeric. Cover, reduce heat to medium-low, and simmer 25 minutes, or until liquid is absorbed."
-          ]
+          ],
       }
-  }
+  },
   className: "south-asia-dinner",
   dinner: {
-      name: "Butter Chicken"
-      img: "butter-chicken.jpg"
-      desc: "The best known of all Indian dishes, butter chicken, also known as murgh makhani, is a staple dish at most Indian restaurants."
+      name: "Butter Chicken",
+      img: "images/butter-chicken.jpg",
+      desc: "The best known of all Indian dishes, butter chicken, also known as murgh makhani, is a staple dish at most Indian restaurants.",
       recipe: {
-          ingredients: ["6 tablespoons butter, divided", "2 lbs boneless/skinless chicken thighs, cut into 1” chunks", "1 yellow onion, diced", "3 garlic cloves, minced", "1 tbsp garam masala", "1 tbsp fresh grated ginger", "1 tsp chili powder", "1 tsp ground cumin", "1/2 tsp cayenne pepper", "1 1/2 cups (14oz) tomato sauce", "2 cups cream", "salt and pepper", "lime and cilantro", "naan and rice"]
+          ingredients: ["6 tablespoons butter, divided", "2 lbs boneless/skinless chicken thighs, cut into 1” chunks", "1 yellow onion, diced", "3 garlic cloves, minced", "1 tbsp garam masala", "1 tbsp fresh grated ginger", "1 tsp chili powder", "1 tsp ground cumin", "1/2 tsp cayenne pepper", "1 1/2 cups (14oz) tomato sauce", "2 cups cream", "salt and pepper", "lime and cilantro", "naan and rice"],
           instructions: [
               "Using 2 tbsp of butter in a large skillet over medium-high heat, brown the pieces of the chicken so each side is browned. They do not need to be fully cooked all the way through. Work in batches, and set aside when you’re done.",
               "Melt another 2 Tbsp of butter in the pan over medium heat. Add the onion, and cook until beginning to soften (about three minutes). Add the garlic, garam masala, ginger, chili powder, cumin, and cayenne. Stir to combine, and cook for about 45 seconds before adding the tomato sauce.",
               "Bring the mixture to a simmer and let cook for five minutes before adding the cream. Bring the mixture back to a simmer, add the browned chicken, and let simmer for 10-15 minutes. Keep the heat low.",
               "Stir in the remaining 2 tbsp of butter, and season with salt and pepper.",
               "Serve garnished with lime and cilantro, alongside rice and naan."
-          ]
+          ],
       }
   }
-
+  },
+  {
   region: "Middle East",
-  className: "middle-east-breakfast",
-  color: #3293D3,
+  className: "images/middle-east-breakfast",
+  color: "#3293D3",
   breakfast: {
-      name: "Falafel"
-      img: "falafel.jpg"
-      desc: "Protein-packed chickpea fritters which is Israel's national dish."
+      name: "Falafel",
+      img: "images/falafel.jpg",
+      desc: "Protein-packed chickpea fritters which is Israel's national dish.",
       recipe: {
-          ingredients: ["1 cup dried chickpeas", "1/2 large onion, roughly chopped (about 1 cup)", "2 tbsp finely chopped fresh parsley", "2 tbsp finely chopped fresh cilantro", "1 tsp salt", "1/2-1 tsp dried hot red pepper", "4 cloves of garlic", "1 tsp cumin", "1 tsp baking powder", "4-6 tbsp flour", "Soybean or vegetable oil for frying", "Chopped tomato for garnish", "Diced onion for garnish", "Diced green bell pepper for garnish", "Tahina sauce", "Pita bread"]
+          ingredients: ["1 cup dried chickpeas", "1/2 large onion, roughly chopped (about 1 cup)", "2 tbsp finely chopped fresh parsley", "2 tbsp finely chopped fresh cilantro", "1 tsp salt", "1/2-1 tsp dried hot red pepper", "4 cloves of garlic", "1 tsp cumin", "1 tsp baking powder", "4-6 tbsp flour", "Soybean or vegetable oil for frying", "Chopped tomato for garnish", "Diced onion for garnish", "Diced green bell pepper for garnish", "Tahina sauce", "Pita bread"],
           instructions: [
               "Put the chickpeas in a large bowl and add enough cold water to cover them by at least 2 inches. Let soak overnight, then drain. Or use canned chickpeas, drained.",
               "Place the drained, uncooked chickpeas and the onions in the bowl of a food processor fitted with a steel blade. Add the parsley, cilantro, salt, hot pepper, garlic, and cumin. Process until blended but not pureed.",
               "Sprinkle in the baking powder and 4 tablespoons of the flour, and pulse. You want to add enough bulgur or flour so that the dough forms a small ball and no longer sticks to your hands. Turn into a bowl and refrigerate, covered, for several hours.",
               "Form the chickpea mixture into balls about the size of walnuts, or use a falafel scoop, available in Middle-Eastern markets.",
               "Heat 3 inches of oil to 375ºF in a deep pot or wok and fry 1 ball to test. If it falls apart, add a little flour. Then fry about 6 balls at once for a few minutes on each side, or until golden brown. Drain on paper towels. Stuff half a pita with falafel balls, chopped tomatoes, onion, green pepper, and pickled turnips. Drizzle with tahina thinned with water."
-          ]
+          ],
       }
-  }
+  },
   className: "middle-east-lunch",
   lunch: {
-      name: "Shawarma"
-      img: "shawarma.jpg"
-      desc: "A delicious Middle Eastern meat treat made with either lamb, turkey, chicken, beef, or a mix of different meats which are slow-cooked for hours and basted in their own juices and fat, gaining an incomparable succulence, but the real secret to a perfect shawarma is in the marinade."
+      name: "Shawarma",
+      img: "image/shawarma.jpg",
+      desc: "A delicious Middle Eastern meat treat made with either lamb, turkey, chicken, beef, or a mix of different meats which are slow-cooked for hours and basted in their own juices and fat, gaining an incomparable succulence, but the real secret to a perfect shawarma is in the marinade.",
       recipe: {
-          ingredients: ["2lb /1 kg chicken thigh fillets", "1 large garlic clove, minced", "1 tbsp ground coriander", "1 tbsp ground cumin", "1 tbsp ground cardamon", "1 tsp ground cayenne pepper", "2 tsp smoked paprika", "2 tsp salt", "Black pepper", "3 tbsp lemon juice", "3 tbsp olive oil", "1 cup Greek yoghurt", "1 clove garlic, crushed", "1 tsp cumin", "Salt and pepper", "6 flatbreads", "Sliced lettuce", "Tomato slices"]
+          ingredients: ["2lb /1 kg chicken thigh fillets", "1 large garlic clove, minced", "1 tbsp ground coriander", "1 tbsp ground cumin", "1 tbsp ground cardamon", "1 tsp ground cayenne pepper", "2 tsp smoked paprika", "2 tsp salt", "Black pepper", "3 tbsp lemon juice", "3 tbsp olive oil", "1 cup Greek yoghurt", "1 clove garlic, crushed", "1 tsp cumin", "Salt and pepper", "6 flatbreads", "Sliced lettuce", "Tomato slices"],
           instructions: [
               "Combine 1 minced large garlic clove, 1 tbsp ground coriander, 1 tbsp ground cumin, 1 tbsp ground cardamon, 1 tsp ground cayenne pepper, 2 tsp smoked paprika, 2 tsp salt black pepper, 2 tbsp lemon juice, 3 tbsp olive oil in a large ziplock bag or bowl for marinade.",
               "Add the chicken and use your hands to make sure each piece is coated. If using a ziplock bag, I find it convenient to close the bag then massage the bag to disperse the rub all over each chicken piece.",
@@ -601,35 +603,36 @@ lunch: {
               "Remove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.",
               "Slice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce.",
               "To make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!"
-          ]
+          ],
       }
-  }
+  },
   className: "middle-east-dinner",
   dinner: {
-      name: "Cholent"
-      img: "cholent.jpg"
-      desc: "a traditional Jewish stew characterized by its long cooking time traditionally cooked on Friday, before the Jewish Sabbat, when all work is forbidden."
+      name: "Cholent",
+      img: "images/cholent.jpg",
+      desc: "a traditional Jewish stew characterized by its long cooking time traditionally cooked on Friday, before the Jewish Sabbat, when all work is forbidden.",
       recipe: {
-          ingredients: ["3 onions, quartered", "4 tbsp vegetable oil", "4 lbs chuck roast, cut into large chunks", "1 cup dry kidney beans", "1 cup dried pinto beans", "1 cup pearl barley", "5 large potatoes, peeled and cut into thirds", "boiling water", "2 (1 ounce) packages dry onion and mushroom soup mix", "2 tbsp garlic powder", "Salt and pepper"]
+          ingredients: ["3 onions, quartered", "4 tbsp vegetable oil", "4 lbs chuck roast, cut into large chunks", "1 cup dry kidney beans", "1 cup dried pinto beans", "1 cup pearl barley", "5 large potatoes, peeled and cut into thirds", "boiling water", "2 (1 ounce) packages dry onion and mushroom soup mix", "2 tbsp garlic powder", "Salt and pepper"],
           instructions: [
               "In a large oven safe pot or roasting pan, saute onions in oil over medium heat.",
               "Add meat, and brown well on all sides.",
               "Add meat, and brown well on all sides.",
               "Preheat oven to 200 degrees F (95 degrees C).",
               "Cover pot tightly, and place in preheated oven. Allow to cook overnight for at least 10 to 15 hours. Check periodically to make sure you have enough liquid to cover; add small amounts of water if needed. Do not stir; stirring will break up the chunks of potatoes."
-          ]
+          ],
       }
   }
-
+  },
+  {
 region: "Eastern Europe and Russia",
   className: "eastern-europe-and-russia-breakfast",
-  color: #F19800,
+  color: "#F19800",
   breakfast: {
-      name: "Adjarian Khachapuri"
-      img: "adjarian-khachapuri.jpg"
-      desc: "A traditional cheese bread from the country of Georgia. Boat shaped bread filled with cheeses, egg, and butter."
+      name: "Adjarian Khachapuri",
+      img: "images/adjarian-khachapuri.jpg",
+      desc: "A traditional cheese bread from the country of Georgia. Boat shaped bread filled with cheeses, egg, and butter.",
       recipe: {
-          ingredients: ["2 cups all-purpose flour", "1/4 oz packet active dry yeast (1 1/2 tsp)", "1/3 cup warm water", "1/3 cup warm milk", "1/2 tsp salt", "1 tbsp canola oil plus a little extra", "4 ounces feta cheese, crumbled", "4 ounces low-moisture mozzarella cheese, shredded", "3 large eggs", "2 tbsp unsalted butter"]
+          ingredients: ["2 cups all-purpose flour", "1/4 oz packet active dry yeast (1 1/2 tsp)", "1/3 cup warm water", "1/3 cup warm milk", "1/2 tsp salt", "1 tbsp canola oil plus a little extra", "4 ounces feta cheese, crumbled", "4 ounces low-moisture mozzarella cheese, shredded", "3 large eggs", "2 tbsp unsalted butter"],
           instructions: [
               "Combine the flour and yeast together in a large mixing bowl or the bowl of a stand mixer. Stir in the water, milk, salt, and 1 tbsp oil until well combined.",
               "Knead the dough by hand or with the hook attachment of your stand mixer until smooth and elastic, about 5 minutes.",
@@ -644,16 +647,16 @@ region: "Eastern Europe and Russia",
               "Carefully crack an egg in each indentation, return the bread boats to the oven and bake until the egg whites are just set, 4 to 5 minutes.",
               "Remove the breads from the oven and place 1 tbsp of butter on top of each egg.",
               "Enjoy the bread by tearing off pieces of the edge and dipping it in the egg and cheese center or eat it with a fork."
-          ]
+          ],
       }
-  }
+  },
   className: "eastern-europe-and-russia-lunch",
   lunch: {
-      name: "Sarma"
-      img: "sarma.jpg"
-      desc: "Serbian stuffed cabbage, or sarma, is a hearty dish that many Serbs serve every day but especially for special occasions like slavas and other holidays."
+      name: "Sarma",
+      img: "images/sarma.jpg",
+      desc: "Serbian stuffed cabbage, or sarma, is a hearty dish that many Serbs serve every day but especially for special occasions like slavas and other holidays.",
       recipe: {
-          ingredients: ["1 (3-4 lbs) head cabbage", "1 lb ground chuck", "1/2 lb ground pork", "1 cup raw rice, rinsed", "1 (1.4 oz) package dehydrated onion soup mix", "1 (32 oz) jar sauerkraut, rinsed and drained", "6 medium smoked ribs, ham hocks, or other smoked meat", "1 (8 oz) can tomato sauce", "1 (10 3/4 oz) can tomato soup"]
+          ingredients: ["1 (3-4 lbs) head cabbage", "1 lb ground chuck", "1/2 lb ground pork", "1 cup raw rice, rinsed", "1 (1.4 oz) package dehydrated onion soup mix", "1 (32 oz) jar sauerkraut, rinsed and drained", "6 medium smoked ribs, ham hocks, or other smoked meat", "1 (8 oz) can tomato sauce", "1 (10 3/4 oz) can tomato soup"],
           instructions: [
               "Steam the head of cabbage until the outer leaves are limp, then cool slightly and separate the leaves.",
               "With a paring knife, remove the tough ribs from the leaves without damaging them. Reserve the tougher outer leaves, but don't use for rolling.",
@@ -676,14 +679,14 @@ region: "Eastern Europe and Russia",
               "Let sit 20 to 30 minutes before serving.",
           ]
       }
-  }
+  },
   className: "eastern-europe-and-russia-dinner",
   dinner: {
-      name: "Piti"
-      img: "piti.jpg"
-      desc: "Made with lamb meat, chickpeas, chestnuts, dried plums, onions, saffron, potatoes, and sheep tail fat, Piti owes its unmistakable taste to the clay pot in which it's made - the dopu."
+      name: "Piti",
+      img: "images/piti.jpg",
+      desc: "Made with lamb meat, chickpeas, chestnuts, dried plums, onions, saffron, potatoes, and sheep tail fat, Piti owes its unmistakable taste to the clay pot in which it's made - the dopu.",
       recipe: {
-          ingredients: ["500 g (1.1 lb) of lamb", "2 onions", "1 large tomato", "2 quinces", "2 potatoes", "3 tbsp dry peas chickpeas", "2 tbsp mint", "Salt pepper", "Black peppercorns"]
+          ingredients: ["500 g (1.1 lb) of lamb", "2 onions", "1 large tomato", "2 quinces", "2 potatoes", "3 tbsp dry peas chickpeas", "2 tbsp mint", "Salt pepper", "Black peppercorns"],
           instructions: [
               "Soak chickpeas in water for 10 hours. Drain the water, rinse the peas. Cut the meat into small pieces. Onion cut into half rings, quince cubes.",
               "Preheat the oven to 190 degree C (356 degree F). Put onions, meat, quince and peas in pots. To make it soup, fill the pots on half. Add 1 cup of boiling water to each pot, cover with lids and put in the oven for 30 minutes.",
@@ -692,16 +695,17 @@ region: "Eastern Europe and Russia",
           ]
       }
   }
-
+  },
+{
 region: "West Africa",
   className: "west-africa-breakfast",
-  color: #96B5D2,
+  color: "#96B5D2",
   breakfast: {
-      name: "Waakye"
-      img: "waakye.jpg"
-      desc: "This versatile dish is a favorite street food and comes served on a large waakye leaf."
+      name: "Waakye",
+      img: "images/waakye.jpg",
+      desc: "This versatile dish is a favorite street food and comes served on a large waakye leaf.",
       recipe: {
-          ingredients: ["225-250g (8-9oz) dried black-eyed beans, or 400g (14oz) can organic black-eyed beans or red kidney beans", "400g (14oz) medium or long-grain brown rice", "1 tbsp coconut oil", "1 onion, finely diced", "3-4 dried millet or sorghum leaves, or 1 tsp bicarbonate of soda", "1 red Anaheim chili, or bird's-eye chili, thinly sliced", "Sea salt", "1 litre (1.75 pints) boiling water, or good quality chicken or vegetable stock", "Garnish (optional)", "2 soft-boiled eggs, shelled and halved", "Small bunch of chives, finely sliced", "1 green chili, finely sliced"]
+          ingredients: ["225-250g (8-9oz) dried black-eyed beans, or 400g (14oz) can organic black-eyed beans or red kidney beans", "400g (14oz) medium or long-grain brown rice", "1 tbsp coconut oil", "1 onion, finely diced", "3-4 dried millet or sorghum leaves, or 1 tsp bicarbonate of soda", "1 red Anaheim chili, or bird's-eye chili, thinly sliced", "Sea salt", "1 litre (1.75 pints) boiling water, or good quality chicken or vegetable stock", "Garnish (optional)", "2 soft-boiled eggs, shelled and halved", "Small bunch of chives, finely sliced", "1 green chili, finely sliced"],
           instructions: [
              "Rinse the beans, place in a large saucepan, cover with water, bring to the boil, reduce the heat and simmer for at least 1 hour or until the beans are tender enough to be squeezed easily between thumb and forefinger. Drain and set aside. For a faster execution, use a can of beans - just drain, rinse and drain again.",
              "Wash the rice in several changes of cold water until the water runs clear - I wash it at least 3 times - then drain.",
@@ -712,14 +716,14 @@ region: "West Africa",
              "Garnish with the soft-boiled eggs, chives and green chili, if liked, and serve with hot sauce as a side to any meat or veg-based stew."
              ]
       }
-  }
+  },
   className: "west-africa-lunch",
   lunch: {
-      name: "Garden Egg Stew"
-      img: "garden-egg-stew.jpg"
-      desc: "A popular Ghanaian dish featuring African eggplant, or garden egg as its main ingredient. The stew is often served for lunch or dinner, accompanied by boiled plantains."
+      name: "Garden Egg Stew",
+      img: "images/garden-egg-stew.jpg",
+      desc: "A popular Ghanaian dish featuring African eggplant, or garden egg as its main ingredient. The stew is often served for lunch or dinner, accompanied by boiled plantains.",
       recipe: {
-          ingredients: ["15 Thai eggplants aka green garden-egg", "6 plum tomatoes", "1 large white onion", "¼ cup palm oil", "1 scotch bonnet pepper, chopped", "340 g (0.75 lb) smoked mackerel the equivalent of one large mackerel skinned and deboned", "1 tsp chicken/ vegetable bullion", "1 small handful of Clove basil aka Nigerian scent leaf/Thai basil", "Salt"]
+          ingredients: ["15 Thai eggplants aka green garden-egg", "6 plum tomatoes", "1 large white onion", "¼ cup palm oil", "1 scotch bonnet pepper, chopped", "340 g (0.75 lb) smoked mackerel the equivalent of one large mackerel skinned and deboned", "1 tsp chicken/ vegetable bullion", "1 small handful of Clove basil aka Nigerian scent leaf/Thai basil", "Salt"],
           instructions: [
               "To prep the garden eggs/eggplants , take off the stems, wash and quarter each then boil in salted water for 10- 15 minutes.",
               "While the garden eggs/eggplants are boiling, slice the onions into half-moons, dice the tomatoes, roughly chop the basil, and flake the fish.",
@@ -732,14 +736,14 @@ region: "West Africa",
               "Serve warm with a side of your favorite carbs."
           ]
       }
-  }
+  },
   className: "west-africa-dinner",
   dinner: {
-      name: "Jollof Rice"
-      img: "jollof-rice.jpg"
-      desc: "A Nigerian dish with Senegalese origins that can be found all over West Africa with some variations in the ingredients. It's believed that jollof rice is the predecessor to the popular Cajun dish jambalaya."
+      name: "Jollof Rice",
+      img: "images/jollof-rice.jpg",
+      desc: "A Nigerian dish with Senegalese origins that can be found all over West Africa with some variations in the ingredients. It's believed that jollof rice is the predecessor to the popular Cajun dish jambalaya.",
       recipe: {
-          ingredients: ["1/3 cup oil (vegetable/canola/coconut, not olive oil)", "6 medium-sized fresh plum/Roma tomatoes, chopped", "6 fresh, red poblano peppers, seeds discarded", "3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided", "1/2 to 1 hot pepper, or to taste", "3 tbsp tomato paste", "2 tsp (Caribbean/Jamaican-style) curry powder", "1 tsp dried thyme", "2 dried bay leaves", "5 to 6 cups stock (vegetable, chicken, or beef) or water, divided", "2 tsp unsalted butter", "4 cups uncooked converted long-grain rice or golden sella basmati, rinsed", "Salt", "Black and white pepper]
+          ingredients: ["1/3 cup oil (vegetable/canola/coconut, not olive oil)", "6 medium-sized fresh plum/Roma tomatoes, chopped", "6 fresh, red poblano peppers, seeds discarded", "3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided", "1/2 to 1 hot pepper, or to taste", "3 tbsp tomato paste", "2 tsp (Caribbean/Jamaican-style) curry powder", "1 tsp dried thyme", "2 dried bay leaves", "5 to 6 cups stock (vegetable, chicken, or beef) or water, divided", "2 tsp unsalted butter", "4 cups uncooked converted long-grain rice or golden sella basmati, rinsed", "Salt", "Black and white pepper"],
           instructions: [
               "In a blender, combine tomatoes, red poblano peppers, chopped onions, and Scotch bonnets with 2 cups of stock, blend till smooth, about a minute or two. You should have roughly 6 cups of blended mix. Pour into a large pot/ pan and bring to the boil then turn down and let simmer, covered for 10 - 12 minutes.",
               "In a large pan, heat oil and add the sliced onions. Season with a pinch of salt, stir-fry for 2 to 3 minutes, then add the bay leaves, curry powder and dried thyme and a pinch of black pepper for 3 - 4 minutes on medium heat. Then add the tomato paste - stir for another 2 minutes. Add the reduced tomato-pepper-Scotch bonnet mixture, stir, and set on medium heat for 10 to 12 minutes till reduced by half, with the lid on. This is the stew that will define the pot.",
@@ -750,16 +754,17 @@ region: "West Africa",
           ]
       }
   }
-
+},
+{
   region: "Southern Africa",
   className: "southern-africa-breakfast",
-  color: #C3620A,
+  color: "#C3620A",
   breakfast: {
-      name: "Putu Pap"
-      img: "putu-pap.jpg"
-      desc: "A staple dish of South Africa, particularly in Cape Town."
+      name: "Putu Pap",
+      img: "images/putu-pap.jpg",
+      desc: "A staple dish of South Africa, particularly in Cape Town.",
       recipe: {
-          ingredients: ["1 lt water", "2 tsp salt", "800 g (1.7 lb) maize meal", "2 tbsp butter"]
+          ingredients: ["1 lt water", "2 tsp salt", "800 g (1.7 lb) maize meal", "2 tbsp butter"],
           instructions: [
               "In a pot with a heavy bottom, preferably cast iron, bring the water to a boil. Add salt.",
               "Add the maize meal to the water by aiming for the center of the pot. This should create a tower of maize that comes out of the water. Do not touch the maize tower.",
@@ -770,14 +775,14 @@ region: "West Africa",
               "When the putu pap is ready to serve, stir in the butter."
           ]
       }
-  }
+  },
   className: "southern-africa-lunch",
   lunch: {
-      name: "Bunny Chow"
-      img: "bunny-chow.jpg"
-      desc: "Originated in the city of Durban, Bunny Chow is a South African dish consisting of a half or a quarter loaf of bread that is hollowed out and stuffed with curry that has been cooked with kidney beans or meats such as mutton, chicken, and lamb. It is traditionally consumed without utensils."
+      name: "Bunny Chow",
+      img: "images/bunny-chow.jpg",
+      desc: "Originated in the city of Durban, Bunny Chow is a South African dish consisting of a half or a quarter loaf of bread that is hollowed out and stuffed with curry that has been cooked with kidney beans or meats such as mutton, chicken, and lamb. It is traditionally consumed without utensils.",
       recipe: {
-          ingredients: ["1 pound chicken thighs or breast cut in bite-sized pieces", "1/2 cup canola or cooking oil", "2-3 Curry leaves", "1 tsp minced ginger", "2 tsp minced garlic", "1 tbps curry powder", "1 medium onion, diced", "2 medium tomatoes, diced", "1 cinnamon stick", "1 1/2 tsp paprika", "3 green cardamom pods, lightly crushed", "8 oz or less potatoes, cleaned and cut into cubes", "1 15 oz can chickpeas, rinsed and drained", "½ teaspoon cayenne pepper, optional", "11/2 cup or more chicken broth or water", "Salt and pepper"]
+          ingredients: ["1 pound chicken thighs or breast cut in bite-sized pieces", "1/2 cup canola or cooking oil", "2-3 Curry leaves", "1 tsp minced ginger", "2 tsp minced garlic", "1 tbps curry powder", "1 medium onion, diced", "2 medium tomatoes, diced", "1 cinnamon stick", "1 1/2 tsp paprika", "3 green cardamom pods, lightly crushed", "8 oz or less potatoes, cleaned and cut into cubes", "1 15 oz can chickpeas, rinsed and drained", "½ teaspoon cayenne pepper, optional", "11/2 cup or more chicken broth or water", "Salt and pepper"],
           instructions: [
               "heat up large Sauce- pan with oil, and add onions, garlic,ginger, cinnamon stick, curry leaves, cardamom pods and curry powder, stir occasionally for about 2-3 minutes until onions is translucent.",
               "Add tomatoes followed by chicken, stir and sauté for about 2-3 more minutes. Add chicken stock/ water if necessary to prevent any burns.",
@@ -785,14 +790,14 @@ region: "West Africa",
               "Adjust for salt, pepper and stew consistency."
           ]
       }
-  }
+  },
   className: "southern-africa-dinner",
   dinner: {
-      name: "Peri Peri Chicken"
-      img: "peri-peri-chicken.jpg"
-      desc: "Q Mozambican dish consisting of grilled or roasted chicken that is often served with a creamy and spicy coconut sauce."
+      name: "Peri Peri Chicken",
+      img: "images/peri-peri-chicken.jpg",
+      desc: "Q Mozambican dish consisting of grilled or roasted chicken that is often served with a creamy and spicy coconut sauce.",
       recipe: {
-          ingredients: ["¼ cup paprika", "2 tbsp hot chili powder", "1 cup fresh lemon juice", "3 cloves garlic, minced", "1 ½ tsp chopped fresh ginger", "1 ½ tsp salt", "4 bone-in chicken breast halves"]
+          ingredients: ["¼ cup paprika", "2 tbsp hot chili powder", "1 cup fresh lemon juice", "3 cloves garlic, minced", "1 ½ tsp chopped fresh ginger", "1 ½ tsp salt", "4 bone-in chicken breast halves"],
           instructions: [
               "In a large bowl, stir together the paprika, chili powder, lemon juice, garlic, ginger and salt. Rub chicken with the mixture, place in a dish, and marinate for 3 hours.",
               "Preheat a grill for medium heat.",
@@ -800,16 +805,17 @@ region: "West Africa",
           ]
       }
   }
-
+},
+{
   region: "English North America",
   className: "english-north-america-breakfast",
-  color: #CD3B3A,
+  color: "#CD3B3A",
   breakfast: {
-      name: "Bacon, Egg and Cheese Sandwich"
-      img: "bacon-egg-and-cheese-sandwich"
-      desc: "This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it."
+      name: "Bacon, Egg and Cheese Sandwich",
+      img: "images/bacon-egg-and-cheese-sandwich",
+      desc: "This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it.",
       recipe: {
-          ingredients: ["4 slices of whole wheat or white bread", "4 slices of bacon", "2 eggs", "2 slices of cheese", "2 tsp of milk or water", "Salt", "Pepper", "3 tsp of butter"]
+          ingredients: ["4 slices of whole wheat or white bread", "4 slices of bacon", "2 eggs", "2 slices of cheese", "2 tsp of milk or water", "Salt", "Pepper", "3 tsp of butter"],
           instructions: [
               "Grill 4 slices of bacon on a frying pan for 3-5 minutes.",
               "Beat eggs, milk, salt and pepper in small bowl until blended.",
@@ -818,14 +824,14 @@ region: "West Africa",
               "Grill sandwiches over medium heat, turning once, until bread is toasted and cheese is melted, 2 to 4 minutes."
           ]
       }
-  }
+  },
   className: "english-north-america-lunch",
   lunch: {
-      name: "All American Sub"
-      img: "all-american-sub"
-      desc: "The American submarine sandwich, also known as the American sub, All-American sub, American hoagie or American hero, is a type of submarine sandwich similar to the ham and cheese sandwich and Italian sandwich."
+      name: "All American Sub",
+      img: "images/all-american-sub",
+      desc: "The American submarine sandwich, also known as the American sub, All-American sub, American hoagie or American hero, is a type of submarine sandwich similar to the ham and cheese sandwich and Italian sandwich.",
       recipe: {
-          ingredients: ["1 lb sub bread", "1/2 lb shaved turkey", "1/2 lb shaved ham", "1/4 lb thin sliced salami", "1⁄4 lb thin sliced white American cheese", "1⁄4 lb thin sliced lorraine swiss cheese", "crisp lettuce leaf", "2 tomatoes, in thin slices", "1 yellow sweet onion, in thin slices", "mayonnaise", "honey mustard", "salt & fresh ground pepper"]
+          ingredients: ["1 lb sub bread", "1/2 lb shaved turkey", "1/2 lb shaved ham", "1/4 lb thin sliced salami", "1⁄4 lb thin sliced white American cheese", "1⁄4 lb thin sliced lorraine swiss cheese", "crisp lettuce leaf", "2 tomatoes, in thin slices", "1 yellow sweet onion, in thin slices", "mayonnaise", "honey mustard", "salt & fresh ground pepper"],
           instructions: [
               "Cut loaf of bread (french, Italian, or grain bread) in half, lengthwise.",
               "Spread one half with mayonnaise the other with mustard.", 
@@ -835,14 +841,14 @@ region: "West Africa",
               "Cut into serving slices."
           ]
       }
-  }
+  },
   className: "english-north-america-dinner",
   dinner: {
-      name: "Mac and Cheese"
-      img: "mac-and-cheese.jpg"
-      desc: "Although it is an American staple, the dish was probably inspired by various pasta and cheese dishes that were enjoyed in Italy, France, and the United Kingdom, before its appearance in the United States."
+      name: "Mac and Cheese",
+      img: "images/mac-and-cheese.jpg",
+      desc: "Although it is an American staple, the dish was probably inspired by various pasta and cheese dishes that were enjoyed in Italy, France, and the United Kingdom, before its appearance in the United States.",
       recipe: {
-          ingredients: ["6 tbsp unsalted butter, plus more to grease the baking dish", "1 cup (120g) panko breadcrumbs", "24 oz (680g) sharp or extra-sharp Cheddar, grated", "14 oz (400g) elbow macaroni", "3 ¼ cups (780ml) whole milk", "3 tbsp all-purpose flour", "1 ½ tsp dry mustard", "1 tsp fine sea salt", "1/2 tsp freshly ground black pepper"]
+          ingredients: ["6 tbsp unsalted butter, plus more to grease the baking dish", "1 cup (120g) panko breadcrumbs", "24 oz (680g) sharp or extra-sharp Cheddar, grated", "14 oz (400g) elbow macaroni", "3 ¼ cups (780ml) whole milk", "3 tbsp all-purpose flour", "1 ½ tsp dry mustard", "1 tsp fine sea salt", "1/2 tsp freshly ground black pepper"],
           instructions: [
               "Set the oven to 350°F (175°C) and grease a 9x13-inch (23x33cm) baking dish with butter. Place the panko breadcrumbs in a small bowl, then melt three tablespoons of butter in a small saucepan over moderate heat.",
               "Once melted, drizzle the butter over the panko breadcrumbs and toss them to ensure they are all coated. Next, add a handful of grated cheese to the buttered breadcrumbs and stir them to combine.",
@@ -857,4 +863,5 @@ region: "West Africa",
           ]
       }
   }
+}
 ]
