@@ -3,67 +3,127 @@
 <head>
 	
 	<title>Around the World in 48 Recipes</title>
-
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<main class="container">
+	<link rel="styles/style.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		#map {
-			width: 600px;
-			height: 400px;
-		}
-	</style>
-
-	
-</head>
-<body>
-
-<div id='map'></div>
-
-<script type="text/javascript" src="scripts/map.js"></script>
-
-<script>
-
-	var map = L.map('map');
-
-	map.createPane('labels');
-
-	// This pane is above markers but below popups
-	map.getPane('labels').style.zIndex = 650;
-
-	// Layers in this pane are non-interactive and do not obscure mouse/touch events
-	map.getPane('labels').style.pointerEvents = 'none';
-
-	var cartodbAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution">CARTO</a>';
-
-	var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-		attribution: cartodbAttribution
-	}).addTo(map);
-
-	var positronLabels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
-		attribution: cartodbAttribution,
-		pane: 'labels'
-	}).addTo(map);
-
-	geojson = L.geoJson(euCountries).addTo(map);
-
-	geojson.eachLayer(function (layer) {
-		layer.bindPopup(layer.feature.properties.name);
-	});
-
-	map.setView({84.2, 36.9, -64.3, 90.0 });
-</script>
-
-
-
+	<body>
+		<main class="container">
+			<h2>Around the World in 48 Recipes</h2>
+			<p>Tired of boring, quarantine recipes? Wishing you can travel? Try these recipes curated just for you and your tastebuds to travel around the world.</p>
+		
+		<!--
+		  <div class="region-group"><label>Region:</label>
+			<input type="radio" name="region" checked onchange="regionSelection(this.value)" value="Latin America"> Latin America
+				<input type="radio" name="region" checked onchange="regionSelection(this.value)" value="South Asia"> South Asia
+				<input type="radio" name="region" checked onchange="regionSelection(this.value)" id="southAsia" value="Middle East"> Middle East
+				<input type="radio" name="region"> Eastern Europe & Russia
+			<input type="radio" name="region"> West Africa
+			<input type="radio" name="region"> Southern Africa
+			<input type="radio" name="region"> English North America
+			<input type="radio" name="region"> Southeast Asia
+			<input type="radio" name="region"> Central Asia
+			<input type="radio" name="region"> Oceania
+			<input type="radio" name="region"> Western Europe
+			<input type="radio" name="region"> North Africa
+			<input type="radio" name="region"> Central Africa
+			<input type="radio" name="region"> East Africa
+			</div> -->
+			<!-- one group for region, meal / button for get recipe-->
+		
+		<!-- Region -->
+		<fieldset>
+		  <legend>Region</legend>
+			<div class="region-group">
+			<label>
+			  <input type="radio" name="region" checked onchange="regionSelection(this.value)" value="Latin America"/>
+			  <span>Latin America</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="South Asia"/>
+			  <span>South Asia</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Middle East"/>
+			  <span>Middle East</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Middle East"/>
+			  <span>Eastern Europe & Russia</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="West Africa"/>
+			  <span>West Africa</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Southern Africa"/>
+			  <span>Southern Africa</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="English North America"/>
+			  <span>English North America</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Southeast Asia"/>
+			  <span>Southeast Asia</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Central Asia"/>
+			  <span>Central Asia</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Oceania"/>
+			  <span>Oceania</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Western Europe"/>
+			  <span>Western Europe</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="North Africa"/>
+			  <span>North Africa</span>
+			</label>
+			<label>
+			  <input type="radio" name="region" onchange="regionSelection(this.value)" value="Central Africa"/>
+			  <span>Central Africa</span>
+			</label>
+		   <label>
+			  <input type="radio" name="region"onchange="regionSelection(this.value)" value="East Africa"/>
+			  <span>East Africa</span>
+			</label>
+		  </div>
+		</fieldset>
+		
+		<br>  
+		<!--
+		 <div id="recipe" class="meal-group"><label>Meal:</label>
+				<input type="radio" name="meal-option" checked onchange="mealSelection(this.value)" id="breakfast" value="breakfast"> Breakfast
+				<input type="radio" name="meal-option" > Lunch
+				<input type="radio" name="meal-option" > Dinner
+			</div>
+		 <div id = "recipe"></div> -->
+		 
+		<!-- Meal -->
+		  <fieldset>
+		  <legend>Meal</legend>
+			<div id="recipe" class="meal-group">
+			<label>
+			  <input type="radio" name="meal-option" checked onchange="mealSelection(this.value)" id="breakfast" value="breakfast"> <span>Breakfast</span>
+			</label>
+			  <label>
+			  <input type="radio" name="meal-option" onchange="mealSelection(this.value)" id="lunch" value="lunch"> <span>Lunch</span>
+			  </label>
+			  <label>
+			  <input type="radio" name="meal-option" onchange="mealSelection(this.value)" id="dinner" value="dinner"> <span>Dinner</span>
+			  </label>
+		  </div>
+		</fieldset>
+		  <!-- <div id = "recipe"></div> -->
+		 <br>
+		  <div id="recipe"></div>
+		  <button type="button" class="btn-recipe" id="btn-summary">Get Recipe</button>
+		  
+<script src="scripts/recipe.js"></script>
 </body>
+
 </html>
