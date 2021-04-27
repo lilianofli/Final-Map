@@ -1,4 +1,11 @@
-let data = [
+let confirmBtn = document.getElementsByClassName("btn-recipe")[0];
+
+confirmBtn.addEventListener("click", getRecipe);
+
+var region;
+var recipe; //recipe is an object
+var meal;
+var data = [
 	{
     region: "Latin America",
 		className: "latin-america-breakfast",
@@ -812,7 +819,7 @@ region: "West Africa",
   color: "#CD3B3A",
   breakfast: {
       name: "Bacon, Egg and Cheese Sandwich",
-      img: "images/bacon-egg-and-cheese-sandwich",
+      img: "images/bacon-egg-and-cheese-sandwich.jpg",
       desc: "This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it.",
       recipe: {
           ingredients: ["4 slices of whole wheat or white bread", "4 slices of bacon", "2 eggs", "2 slices of cheese", "2 tsp of milk or water", "Salt", "Pepper", "3 tsp of butter"],
@@ -828,7 +835,7 @@ region: "West Africa",
   className: "english-north-america-lunch",
   lunch: {
       name: "All American Sub",
-      img: "images/all-american-sub",
+      img: "images/all-american-sub.jpg",
       desc: "The American submarine sandwich, also known as the American sub, All-American sub, American hoagie or American hero, is a type of submarine sandwich similar to the ham and cheese sandwich and Italian sandwich.",
       recipe: {
           ingredients: ["1 lb sub bread", "1/2 lb shaved turkey", "1/2 lb shaved ham", "1/4 lb thin sliced salami", "1⁄4 lb thin sliced white American cheese", "1⁄4 lb thin sliced lorraine swiss cheese", "crisp lettuce leaf", "2 tomatoes, in thin slices", "1 yellow sweet onion, in thin slices", "mayonnaise", "honey mustard", "salt & fresh ground pepper"],
