@@ -10,6 +10,7 @@ html {
 
 body {
 	padding: 1em;
+  background-color: #FAF9F6;
 }
 
 .container {
@@ -60,6 +61,7 @@ span {
 label > input[type="radio"] {
   display: none;
 }
+
 label > input[type="radio"] + *::before {
   content: "";
   display: inline-block;
@@ -72,9 +74,11 @@ label > input[type="radio"] + *::before {
   border-width: 0.1rem;
   border-color: gray;
 }
+
 label > input[type="radio"]:checked + * {
   color: teal;
 }
+
 label > input[type="radio"]:checked + *::before {
   background: radial-gradient(teal 0%, teal 40%, transparent 50%, transparent);
   border-color: teal;
@@ -86,6 +90,7 @@ fieldset {
   max-width: 500px;
   margin: auto;
 }
+
 label > input[type="radio"] + * {
   display: inline-block;
   padding: 30px 30px;
@@ -101,14 +106,37 @@ label {
 	font-weight: bold;
   font-size: 24px;
 }
+*/
+.get-recipe-button {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.btn-recipe {
+ display:inline-block;
+ border: 0.1rem solid gray;
+ border-radius: 0.12em;
+ margin: auto;
+ padding: 10px;
+ color: black;
+ background-color: #FAF9F6;
+ text-align: center;
+ transition: all 0.2s;
+}
+
+.btn-recipe:hover{
+  color: lightgray;
+  border-color: lightgray;
+}
 
 #btn-summary, .region-group, .meal-group {
 	cursor: pointer;
 }
 
+
 #order-summary {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-*/
+
 
