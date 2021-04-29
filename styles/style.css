@@ -120,6 +120,7 @@ label {
 */
 .get-recipe-button {
   padding-top: 1em;
+  padding-bottom: 3em;
   text-align: center;
 }
 
@@ -140,7 +141,24 @@ label {
   border-color: lightgray;
 }
 
-#btn-summary, .region-group, .meal-group {
+.btn-clear {
+  display:inline-block;
+  border: 0.1rem solid gray;
+  border-radius: 0.12em;
+  margin: auto;
+  padding: 10px;
+  color: black;
+  background-color: #FAF9F6;
+  text-align: center;
+  transition: all 0.2s;
+ }
+ 
+ .btn-clear:hover{
+   color: lightgray;
+   border-color: lightgray;
+ }
+
+.btn-recipe, .btn-clear, .region-group, .meal-group {
 	cursor: pointer;
 }
 
