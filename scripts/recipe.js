@@ -679,7 +679,7 @@ let data = [
     className: "middle-east-lunch",
     lunch: {
       name: "Shawarma",
-      img: "image/shawarma.jpg",
+      img: "images/shawarma.jpg",
       desc: "A delicious Middle Eastern meat treat made with either lamb, turkey, chicken, beef, or a mix of different meats which are slow-cooked for hours and basted in their own juices and fat, gaining an incomparable succulence, but the real secret to a perfect shawarma is in the marinade.",
       recipe: {
         ingredients: ["2lb /1 kg chicken thigh fillets", "1 large garlic clove, minced", "1 tbsp ground coriander", "1 tbsp ground cumin", "1 tbsp ground cardamon", "1 tsp ground cayenne pepper", "2 tsp smoked paprika", "2 tsp salt", "Black pepper", "3 tbsp lemon juice", "3 tbsp olive oil", "1 cup Greek yoghurt", "1 clove garlic, crushed", "1 tsp cumin", "Salt and pepper", "6 flatbreads", "Sliced lettuce", "Tomato slices"],
