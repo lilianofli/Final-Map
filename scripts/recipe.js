@@ -10,11 +10,15 @@ function getChoices(){
                 choice[x] = choices[i].value;
                 x += 1;
             }
+          /*if (choices[i]==null) {
+              alert("You must choose a region!"); //alert message not working  */
+            }
         }
+      resetDiv()
+      getRecipe(choice[0], choice[1]);
     }
-    resetDiv()
-    getRecipe(choice[0], choice[1]);
-}
+
+  
 
 function setImage(recipe){
     var image = document.createElement("img"); 
@@ -88,6 +92,8 @@ function resetDiv(){
     div.appendChild(instrucdiv)
 }
 
+
+
 let data = [
   {
     region: "Latin America",
@@ -158,7 +164,7 @@ let data = [
     className: "central-asia-breakfast",
     breakfast: {
       name: "Uzbek",
-      img: "images/uzbek.png",
+      img: "images/uzbek.jpg",
       desc: "A heavy, fulfilling breakfast to start the day in Central Asia!",
       recipe: {
         ingredients: ["1 1/2 lb lamb (or beef)", "2 medium onions", "5 medium carrots", "3 cup long grain rice", "3 bay leaves", "1 bulb of garlic", "1/2 cup olive oil"],
@@ -214,9 +220,10 @@ let data = [
     }
   },
   {
+
     region: "Oceania",
     className: "oceania-breakfast",
-    region: "#F5069D",
+    color: "#F5069D",
     breakfast: {
       name: "Topai",
       img: "images/topai.png",
@@ -489,6 +496,50 @@ let data = [
           "Add the green pepper slices, lemon juice, salt, turmeric, paprika, allspice, and ginger root. Cook until peppers are soft, about 5 minutes."
         ]
       }
+    },
+    className: "east-africa-dinner",
+    dinner: {
+      name: "East African Pilau",
+      img: "images/pilau.jpg",
+      desc: "A fragrant rice dish filled with aromatic spices that add depth to the rice, topped with beef or chicken.",
+      recipe: {
+        ingredients: 
+        [
+          "1 tsp cloves",
+          "2 tbsp cumin seeds",
+          "1 stick cinnamon",
+          "1/2 tbsp black peppercorn seeds",
+          "12 pods cardamon",
+          "2 cups basmati rice",
+          "5 potatoes medium - peeled and cut into quarters",
+          "¼ cup vegetable oil",
+          "2 red onions medium - thinly sliced",
+          "4 cloves garlic minced",
+          "2 tablespoons ginger minced",
+          "1 serrano chile finely chopped",
+          "1 tablespoon pilau masala",
+          "2 beef stock cubes",
+          "¼ cup fresh cilantro roughly chopped",
+          "1 lb beef sirloin cubed",
+          "3 Roma tomatoes diced",
+          "4 cups water",
+          "2 bay leaves"
+        ],
+        instructions: [
+          "Place the cumin, coriander, black peppers, cinnamon, cardamom and cloves in a dry pan.",
+          "Roast over low heat until warmed through and fragrant and blend (I used a coffee grinder) until smooth.",
+          "You need just 1 to 11/2 tablespoons for this recipe (depending on how fragrant you want the rice to be). Feel free to store the leftover spice powder in an airtight container for up to 3 months, or refrigerate for up to 6 months.",
+          "Heat a stockpot on medium-high heat. Add oil and heat until hot but not smoking.",
+          "Add the sliced onions and fry for 10-15 minutes or till the onions starts to turn golden brown (be careful not to burn it).",
+          "Add the garlic, ginger, serrano pepper, Cook for 1-2 minutes, until fragrant.",
+          "Add the cubed beef, pilau masala, beef stock cubes, bay leaves, cilantro, and salt to taste. Cook until the meat browns and caramelizes stirring occasionally about 8 to 10 minutes.",
+          "Add the diced tomatoes and cook for 4-5 minutes, until the tomatoes have released their liquid.",
+          "Stir in the potatoes and the water. Bring to a boil and cook for 10 minutes.",
+          "Stir in the rice, and cover tightly with a foil paper (to keep the steam in) if necessary. Reduce the heat to low and cook for 20 minutes, until the rice is cooked and the liquid is absorbed.",
+          "Once the rice is dry, remove the foil paper and fluff with a fork to ensure the seasonings are well distributed all around the rice.",
+          "Serve hot with fresh Kachumbari/salsa. Enjoy!"
+        ]
+      }
     }
   },
   {
@@ -659,11 +710,11 @@ let data = [
   },
   {
     region: "Middle East",
-    className: "images/middle-east-breakfast",
+    className: "middle-east-breakfast",
     color: "#3293D3",
     breakfast: {
       name: "Falafel",
-      img: "images/falafel.jpg",
+      img: "images/falafel.jpg", 
       desc: "Protein-packed chickpea fritters which is Israel's national dish.",
       recipe: {
         ingredients: ["1 cup dried chickpeas", "1/2 large onion, roughly chopped (about 1 cup)", "2 tbsp finely chopped fresh parsley", "2 tbsp finely chopped fresh cilantro", "1 tsp salt", "1/2-1 tsp dried hot red pepper", "4 cloves of garlic", "1 tsp cumin", "1 tsp baking powder", "4-6 tbsp flour", "Soybean or vegetable oil for frying", "Chopped tomato for garnish", "Diced onion for garnish", "Diced green bell pepper for garnish", "Tahina sauce", "Pita bread"],
@@ -699,7 +750,7 @@ let data = [
     className: "middle-east-dinner",
     dinner: {
       name: "Cholent",
-      img: "images/cholent.jpg",
+      img: "images/cholent.jpg", 
       desc: "a traditional Jewish stew characterized by its long cooking time traditionally cooked on Friday, before the Jewish Sabbat, when all work is forbidden.",
       recipe: {
         ingredients: ["3 onions, quartered", "4 tbsp vegetable oil", "4 lbs chuck roast, cut into large chunks", "1 cup dry kidney beans", "1 cup dried pinto beans", "1 cup pearl barley", "5 large potatoes, peeled and cut into thirds", "boiling water", "2 (1 ounce) packages dry onion and mushroom soup mix", "2 tbsp garlic powder", "Salt and pepper"],
@@ -714,6 +765,7 @@ let data = [
     }
   },
   {
+  
     region: "Eastern Europe and Russia",
     className: "eastern-europe-and-russia-breakfast",
     color: "#F19800",
@@ -792,7 +844,7 @@ let data = [
     color: "#96B5D2",
     breakfast: {
       name: "Waakye",
-      img: "images/waakye.jpg",
+      img: "images/waakye.jpg", 
       desc: "This versatile dish is a favorite street food and comes served on a large waakye leaf.",
       recipe: {
         ingredients: ["225-250g (8-9oz) dried black-eyed beans, or 400g (14oz) can organic black-eyed beans or red kidney beans", "400g (14oz) medium or long-grain brown rice", "1 tbsp coconut oil", "1 onion, finely diced", "3-4 dried millet or sorghum leaves, or 1 tsp bicarbonate of soda", "1 red Anaheim chili, or bird's-eye chili, thinly sliced", "Sea salt", "1 litre (1.75 pints) boiling water, or good quality chicken or vegetable stock", "Garnish (optional)", "2 soft-boiled eggs, shelled and halved", "Small bunch of chives, finely sliced", "1 green chili, finely sliced"],
@@ -810,7 +862,7 @@ let data = [
     className: "west-africa-lunch",
     lunch: {
       name: "Garden Egg Stew",
-      img: "images/garden-egg-stew.jpg",
+      img: "images/garden-egg-stew.jpg", 
       desc: "A popular Ghanaian dish featuring African eggplant, or garden egg as its main ingredient. The stew is often served for lunch or dinner, accompanied by boiled plantains.",
       recipe: {
         ingredients: ["15 Thai eggplants aka green garden-egg", "6 plum tomatoes", "1 large white onion", "¼ cup palm oil", "1 scotch bonnet pepper, chopped", "340 g (0.75 lb) smoked mackerel the equivalent of one large mackerel skinned and deboned", "1 tsp chicken/ vegetable bullion", "1 small handful of Clove basil aka Nigerian scent leaf/Thai basil", "Salt"],
@@ -830,7 +882,7 @@ let data = [
     className: "west-africa-dinner",
     dinner: {
       name: "Jollof Rice",
-      img: "images/jollof-rice.jpg",
+      img: "images/jollof-rice.jpg", 
       desc: "A Nigerian dish with Senegalese origins that can be found all over West Africa with some variations in the ingredients. It's believed that jollof rice is the predecessor to the popular Cajun dish jambalaya.",
       recipe: {
         ingredients: ["1/3 cup oil (vegetable/canola/coconut, not olive oil)", "6 medium-sized fresh plum/Roma tomatoes, chopped", "6 fresh, red poblano peppers, seeds discarded", "3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided", "1/2 to 1 hot pepper, or to taste", "3 tbsp tomato paste", "2 tsp (Caribbean/Jamaican-style) curry powder", "1 tsp dried thyme", "2 dried bay leaves", "5 to 6 cups stock (vegetable, chicken, or beef) or water, divided", "2 tsp unsalted butter", "4 cups uncooked converted long-grain rice or golden sella basmati, rinsed", "Salt", "Black and white pepper"],
@@ -902,7 +954,7 @@ let data = [
     color: "#CD3B3A",
     breakfast: {
       name: "Bacon, Egg and Cheese Sandwich",
-      img: "images/bacon-egg-and-cheese-sandwich.jpg",
+      img: "images/bacon-egg-and-cheese-sandwhich.jpg",
       desc: "This American sandwich belongs to the group of breakfast sandwiches and consists of bread that is often toasted or buttered, crispy bacon, fried or scrambled eggs, and cheese. It is often served with a cup of coffee on the side. There are numerous versions of this sandwich, depending on the types of ingredients used in it.",
       recipe: {
         ingredients: ["4 slices of whole wheat or white bread", "4 slices of bacon", "2 eggs", "2 slices of cheese", "2 tsp of milk or water", "Salt", "Pepper", "3 tsp of butter"],
@@ -954,4 +1006,4 @@ let data = [
       }
     }
   }
-];
+]
