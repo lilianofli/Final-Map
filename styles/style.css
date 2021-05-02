@@ -279,8 +279,8 @@ ul ol {
   padding-left: 0px ;
 }
 
-
-@media (min-width: 320px) and (max-width: 1280px) {
+/*Phone*/
+@media (max-width: 768px) {
 
 body {
     background-color: #FAF9F6;
@@ -327,4 +327,11 @@ span {
 #recipe-instruc li{
   font-size: 12px;
 }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: #FAF9F6;
+    margin-left: 15rem; /* Same as the width of the sidebar */
+  }
 }
