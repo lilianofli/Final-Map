@@ -3,20 +3,34 @@
 //Get the region selection
 function getChoices(){ 
     var choice = new Array()   //[region, meal]
+    let location = false;
+    let meal = false;
     var choices = document.getElementsByTagName("input");
     for (var i=0, x=0; i < choices.length; i++){
         if (choices[i].type="radio"){
             if (choices[i].checked){
                 choice[x] = choices[i].value;
+                if (choices[i].name == "region"){
+                  location = true;
+                }
+                if (choices[i].name == "meal-option"){
+                  meal = true;
+                }
                 x += 1;
             }
-          /*if (choices[i]==null) {
-              alert("You must choose a region!"); //alert message not working  */
-            }
         }
+    }
+    if (location == false){
+      alert("You must select a region!");
+      return;
+    }
+    if (meal == false){
+      alert("You must select a meal choice!");
+      return;
+    }
       resetDiv()
       getRecipe(choice[0], choice[1]);
-    }
+  }
 
   
 
@@ -72,6 +86,16 @@ function getRecipe(region, meal){
     }
 }
 
+function resetSelect(){
+  //reset the radio buttons
+  var radiolist = document.getElementsByTagName("input");
+    for (var i=0, x=0; i < radiolist.length; i++){
+      if (radiolist[i].type="radio"){
+        radiolist[i].checked = false;
+      }
+    }
+  }
+
 function resetDiv(){
     var div = document.getElementById("recipeDisplay");
     div.innerHTML = "";
@@ -92,6 +116,10 @@ function resetDiv(){
     div.appendChild(instrucdiv)
 }
 
+function resetEverything(){
+  resetSelect();
+  resetDiv();
+}
 
 
 let data = [
