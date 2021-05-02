@@ -9,19 +9,26 @@ html {
 }
 
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
+  height: 100%; 
+  width: 30%; 
+  max-width:15rem;
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  top: 0; 
   left: 0;
-  background-color: #f8edcc; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #f8edcc;
+  overflow-x: hidden; 
   padding-top: 20px;
+  text-align: center;
+}
+
+.sidenav img{
+  width: 100%;
+  margin: inherit;
 }
 
 .sidenav a {
-  padding: 30px 8px 6px 100px;
+  margin: 1.5rem;
   text-decoration: none;
   font-size: 25px;
   color:gray;
@@ -83,17 +90,16 @@ span {
 
 .region-group {
   display: grid;
-  grid-template-columns: repeat(2, 270px);
-	grid-template-rows: repeat(4, 100px);
-	grid-auto-rows: 100px;
-	grid-gap: 0 px;
+  grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	row-gap: 2rem;
+	column-gap: 1rem;
 }
 
 .meal-group {
   display: grid;
-  grid-template-columns: repeat(3, 180px);
-	grid-auto-rows: 100px;
-	grid-gap: 0 px;
+  grid-template-columns: repeat(3, 1fr);
+	column-gap: 0.4rem;
 }
 
 /* doesn't work if put this 
