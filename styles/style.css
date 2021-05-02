@@ -280,4 +280,51 @@ ul ol {
 }
 
 
-@media (min-width: 320px) and (max-width: 1280px) 
+@media (min-width: 320px) and (max-width: 1280px) {
+
+body {
+    background-color: #FAF9F6;
+    margin-left: 8rem; /* Same as the width of the sidebar */
+  }
+
+.container {
+    max-width: 1000px;
+  }
+
+.container h2 {
+  font-size: 24px;
+}
+
+.container p {
+  font-size: 12px;
+}
+
+legend {
+  font-size: 30px;
+}
+
+span {
+  font-size: 12px;
+}
+
+#recipe-name {
+  font-size: 15px;
+}
+
+#recipe-desc {
+  font-size: 12px;
+  line-height: 120%;
+}
+
+#recipe-ingred {
+  font-size: 12px;
+  line-height: 120%;
+}
+
+#recipe-instruc {
+  line-height: 120%;
+}
+#recipe-instruc li{
+  font-size: 12px;
+}
+}
