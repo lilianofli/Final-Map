@@ -1,11 +1,37 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
 	box-sizing: inherit;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #f8edcc; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 30px 8px 6px 100px;
+  text-decoration: none;
+  font-size: 25px;
+  color:gray;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.sidenav a:hover {
+  color:white;
 }
 
 ul {
@@ -20,8 +46,9 @@ a:link {
 }
 
 body {
-	padding: 1em;
+  padding: 1em;
   background-color: #FAF9F6;
+  margin-left: 250px; /* Same as the width of the sidebar */
 }
 
 .container {
@@ -181,19 +208,69 @@ label {
 }
 
 .about-img {
-  width: 20%;
+  width: 40%;
 }
 
 #recipe-name{
+  font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
   float: top;
-  font-size: 40px;
+  font-size: 36px;
   width: 100%;
   height: 40px;
+  line-height: 100%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  border-top: 1px solid gray;
+}
+
+#recipe-desc{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 150%;
+  padding-bottom: 1em;
+}
+
+#recipe-ingred{
+  line-height: 150%;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 1em;
+  font-size: 15px;
+}
+
+#recipe-ingred li{
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#recipe-instruc{
+  line-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 1em;
+  font-size: 15px;
+  border-bottom: 1px solid gray;
+}
+
+#recipe-instruc ol{
+  list-style-position: inherit;
+}
+
+#recipe-instruc li{
+  padding-bottom: 10px;
 }
 
 #recipe-image img{
+  float: right;
   width: 60%;
   height: 50%;
+  padding-left: 1em;
+}
+
+ul ol {
+  margin-left: 0px;
+  padding-left: 0px ;
 }
 
 
