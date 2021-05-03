@@ -40,11 +40,12 @@ html {
   cursor: pointer;
   background-color:#f8edcc;
   color: gray;
+  padding: 10px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: gray;
 }
 
 .container img{
@@ -74,7 +75,7 @@ ul {
 
 a:link {
   text-decoration: none;
-  color: teal;
+  color: white;
 }
 
 body {
