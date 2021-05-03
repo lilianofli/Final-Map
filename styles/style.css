@@ -109,6 +109,12 @@ body {
   padding-bottom: 30px;
 }
 
+.container h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 legend {
   font-size: 40px;
   font-family: 'Shadows Into Light', cursive;
