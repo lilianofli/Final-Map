@@ -226,12 +226,20 @@ label {
   transition: all 0.2s;
  }
  
+.region-group>label:hover{
+  cursor: pointer;
+}
+
+.meal-group>label:hover{
+  cursor: pointer;
+}
+
  .btn-clear:hover{
    color: lightgray;
    border-color: lightgray;
  }
 
-.btn-recipe, .btn-clear, .region-group, .meal-group {
+.btn-recipe, .btn-clear {
 	cursor: pointer;
 }
 
