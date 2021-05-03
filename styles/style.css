@@ -331,6 +331,34 @@ ul ol {
 }
 */
 
+/*ipad*/
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: #FAF9F6;
+    margin: auto;
+  }
+
+  .container h2 {
+    font-size: 36px;
+  }
+  
+  .container h3 {
+    font-size: 28px;
+  }
+  
+  .container p {
+    font-size: 18px;
+  }
+
+  .container span {
+    font-size: 18px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+}
+
 /*Phone*/
 @media (max-width: 768px) {
 
@@ -390,10 +418,5 @@ legend {
 }
 }
 
-/*ipad*/
-@media (min-width: 768px) and (max-width: 992px) {
-  body {
-    background-color: #FAF9F6;
-    margin: auto;
-  }
-}
+
+
