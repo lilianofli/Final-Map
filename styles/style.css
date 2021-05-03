@@ -10,19 +10,42 @@ html {
 
 .sidenav {
   height: 100%; 
-  width: 30%; 
+  width: 40%; 
   max-width:15rem;
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
+  position: fixed;
+  z-index: 1;
   top: 0; 
   left: 0;
   background-color: #f8edcc;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   padding-top: 20px;
   text-align: center;
+  transition: 0.5s;
 }
 
-.sidenav img{
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 90px;
+  color: gray;
+}
+
+.openbtn {
+  float: left;
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#f8edcc;
+  color: gray;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.container img{
   width: 100%;
   margin: inherit;
 }
@@ -55,7 +78,12 @@ a:link {
 body {
   padding: 1em;
   background-color: #FAF9F6;
-  margin-left: 250px; /* Same as the width of the sidebar */
+  background-image: url(../images/background-2.png);
+  background-repeat: repeat no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-left: 2rem; /* Same as the width of the sidebar */
 }
 
 .container {
@@ -247,9 +275,11 @@ label {
 }
 
 #recipe-ingred li{
-  list-style-type: circle;
+  list-style: none;
+  list-style-image: url(../images/ingredients-5.png);
   list-style-position: inside;
 }
+
 
 #recipe-instruc{
   line-height: 100%;
@@ -259,12 +289,15 @@ label {
   border-bottom: 1px solid gray;
 }
 
-#recipe-instruc ol{
-  list-style-position: inherit;
+#recipe-instruc ol {
+  padding-left: 3em;
 }
 
 #recipe-instruc li{
   padding-bottom: 10px;
+  list-style: none;
+  list-style-image: url(../images/instructions-2.png);
+  font-size: 15px;
 }
 
 #recipe-image img{
@@ -274,17 +307,24 @@ label {
   padding-left: 1em;
 }
 
+/*
 ul ol {
   margin-left: 0px;
   padding-left: 0px ;
 }
+*/
 
 /*Phone*/
 @media (max-width: 768px) {
 
+.sidenav {
+  width: 100%;
+}
+
 body {
     background-color: #FAF9F6;
-    margin-left: 8rem; /* Same as the width of the sidebar */
+    margin: auto; /* Same as the width of the sidebar */
+    background-image: url(../images/background-phone.png);
   }
 
 .container {
@@ -303,12 +343,12 @@ legend {
   font-size: 30px;
 }
 
-span {
-  font-size: 12px;
+.container span {
+  font-size: 10px;
 }
 
 #recipe-name {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 #recipe-desc {
@@ -317,7 +357,7 @@ span {
 }
 
 #recipe-ingred {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 120%;
 }
 
@@ -325,13 +365,14 @@ span {
   line-height: 120%;
 }
 #recipe-instruc li{
-  font-size: 12px;
+  font-size: 10px;
 }
 }
 
+/*ipad*/
 @media (min-width: 768px) and (max-width: 992px) {
   body {
     background-color: #FAF9F6;
-    margin-left: 15rem; /* Same as the width of the sidebar */
+    margin: auto;
   }
 }
